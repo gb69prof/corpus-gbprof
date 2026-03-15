@@ -1,0 +1,91 @@
+Pirandello e Svevo: due poetiche dell'ironia
+1. Punto di partenza comune: l’ironia
+Pirandello e Svevo partono entrambi da una constatazione tipica della modernità: l’uomo non coincide più con se stesso. L’identità è fragile, contraddittoria, divisa.
+L’ironia nasce proprio da questa frattura.
+Ma i due autori la usano in modo profondamente diverso.
+________________
+
+
+2. Pirandello: dall’ironia al sentimento del contrario
+Per Pirandello l’ironia è il punto di partenza della conoscenza.
+Nel saggio L’umorismo (1908) distingue due momenti:
+1. Avvertimento del contrario → si ride.
+2. Sentimento del contrario → si comprende la tragedia nascosta.
+Esempio classico: la vecchia signora truccata.
+Prima reazione: ridiamo.
+Poi riflettiamo: forse si trucca perché teme la vecchiaia, la solitudine, l’abbandono.
+Il riso si trasforma in pietà.
+Movimento pirandelliano
+Osservatore → vede l’assurdo → ride → riflette → scopre il dolore umano.
+L’umorismo pirandelliano è quindi uno sguardo filosofico sugli altri.
+È un movimento:
+esterno → interno.
+L’osservatore guarda il mondo e smaschera le illusioni sociali.
+________________
+
+
+3. Svevo: l’ironia come difesa della coscienza
+In Svevo il movimento è completamente diverso.
+L’ironia non serve per scoprire la verità degli altri.
+Serve per difendersi da se stessi.
+Zeno ride continuamente di sé:
+* della propria debolezza
+* delle proprie nevrosi
+* delle proprie menzogne
+Ma questo riso non porta alla verità.
+È una maschera della coscienza.
+Serve a non essere schiacciati dal tragico.
+La coscienza produce continuamente giustificazioni.
+Quando emerge il senso di colpa, Zeno reagisce subito con una spiegazione che lo assolve.
+Il romanzo è costruito proprio su questo meccanismo.
+La memoria stessa è un "miscuglio di verità e menzogne".
+fileciteturn11file5
+________________
+
+
+4. Il caso Ada: colpa e giustificazione
+Ada rappresenta il grande punto di crisi morale di Zeno.
+Zeno la idealizza, la desidera, la perde.
+Quando riflette su questo fallimento non compie mai un’autentica confessione.
+Subito appare la giustificazione:
+"Nonostante la mia passione per Ada, compresi che Guido era un marito adatto a lei. Più tardi mi consolai pensando che, se l’avessi sposata io, le avrei dato di meno di quanto ella meritava."
+fileciteturn11file3
+Il meccanismo è chiaro:
+colpa → razionalizzazione → autoassoluzione.
+L’ironia serve a proteggere l’io.
+________________
+
+
+5. Movimento della coscienza: Pirandello vs Svevo
+Pirandello
+Movimento esterno.
+L’osservatore guarda gli altri.
+ride → riflette → scopre il dramma umano.
+Schema:
+ironia → sentimento del contrario → verità.
+________________
+
+
+Svevo
+Movimento interno.
+Il soggetto osserva se stesso.
+riflette → ride → si giustifica.
+Schema:
+colpa → ironia → autoassoluzione.
+________________
+
+
+6. Conseguenza filosofica
+In Pirandello l’ironia svela la tragedia.
+In Svevo l’ironia la nasconde.
+Pirandello scava sotto la superficie.
+Svevo costruisce una superficie per sopravvivere.
+________________
+
+
+7. Conclusione
+Pirandello vuole smascherare le illusioni dell’uomo.
+Svevo vuole mostrare come l’uomo viva grazie alle proprie illusioni.
+L’umorismo pirandelliano porta alla verità tragica.
+L’ironia sveviana impedisce alla verità di diventare insopportabile.
+Per questo Zeno continua a vivere: non perché abbia capito la verità, ma perché riesce sempre a raccontarsene un’altra.
