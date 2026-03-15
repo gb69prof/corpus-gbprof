@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: DEFLAGRAZIONE FINALE
+
 Lezione: La deflagrazione finale ne La coscienza di Zeno
 1. Il contesto del finale
 Il romanzo di Italo Svevo si conclude con una delle immagini più sorprendenti e inquietanti della letteratura del Novecento. Dopo aver raccontato la propria storia di nevrosi, autoanalisi e fallimenti, Zeno Cosini allarga improvvisamente lo sguardo dal singolo individuo all’intera umanità.

@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: PIRANDELLO CONFRONTO
+
 Pirandello e Svevo: due poetiche dell'ironia
 1. Punto di partenza comune: l’ironia
 Pirandello e Svevo partono entrambi da una constatazione tipica della modernità: l’uomo non coincide più con se stesso. L’identità è fragile, contraddittoria, divisa.

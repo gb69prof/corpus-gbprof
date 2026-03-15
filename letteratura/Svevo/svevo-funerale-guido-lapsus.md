@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: FUNERALE GUIDO LAPSUS
+
 Il mancato funerale di Guido – interpretazione psicoanalitica
 L'episodio
 Nel romanzo La coscienza di Zeno di Italo Svevo, uno degli episodi più significativi è quello del cosiddetto "mancato funerale" di Guido Speier. Guido, marito di Ada e rivale di Zeno, muore dopo un tentativo di suicidio che si rivela fatale. Nel giorno del funerale accade però qualcosa di singolare: Zeno segue per errore il corteo funebre sbagliato e arriva al cimitero quando la cerimonia di Guido è già terminata.

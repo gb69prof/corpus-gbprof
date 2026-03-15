@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: VERITA PREFAZIONI
+
 Lezione: Il concetto di verità nelle prefazioni di Manzoni e Svevo
 1. Introduzione
 Nel romanzo ottocentesco e in quello novecentesco cambia profondamente il modo di intendere la verità. Un confronto molto interessante è quello tra la prefazione de I promessi sposi di Alessandro Manzoni e la prefazione de La coscienza di Zeno di Italo Svevo.
