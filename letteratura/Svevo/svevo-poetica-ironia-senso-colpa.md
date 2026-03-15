@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: POETICA IRONIA SENSO COLPA
+
 Lezione: La poetica di Svevo – Ironia e senso di colpa in Zeno
 1. Introduzione
 La poetica di Italo Svevo nella Coscienza di Zeno ruota attorno a una figura nuova nella letteratura europea: l’inetto. Zeno Cosini non è un eroe, ma un uomo incerto, contraddittorio, spesso incapace di agire con decisione. Tuttavia, ciò che rende davvero originale questo personaggio non è soltanto la sua debolezza, ma il modo in cui egli racconta se stesso.

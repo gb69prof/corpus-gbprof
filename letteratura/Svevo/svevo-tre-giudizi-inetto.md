@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: TRE GIUDIZI INETTO
+
 Tre giudizi sull’inetto – Lezione su La coscienza di Zeno
 Introduzione
 Quando leggiamo La coscienza di Zeno di Italo Svevo, una delle prime impressioni che abbiamo è molto semplice: Zeno sembra un uomo debole, indeciso, incapace di concludere qualcosa. In una parola, un inetto.

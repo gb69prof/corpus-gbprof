@@ -1,60 +1,19 @@
-letteratura/DAnnunzio/alcyone.md -> letteratura/DAnnunzio/dannunzio-alcyone.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: ALCYONE
-letteratura/DAnnunzio/brano-1-la-nascita-dell-esteta.md -> letteratura/DAnnunzio/dannunzio-brano-1-la-nascita-dell-esteta.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: BRANO 1 LA NASCITA DELL ESTETA
-letteratura/DAnnunzio/brano-2-andrea-ed-elena.md -> letteratura/DAnnunzio/dannunzio-brano-2-andrea-ed-elena.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: BRANO 2 ANDREA ED ELENA
-letteratura/DAnnunzio/brano-3-andrea-e-maria.md -> letteratura/DAnnunzio/dannunzio-brano-3-andrea-e-maria.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: BRANO 3 ANDREA E MARIA
-letteratura/DAnnunzio/commento-nascita-esteta.md -> letteratura/DAnnunzio/dannunzio-commento-nascita-esteta.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: COMMENTO NASCITA ESTETA
-letteratura/DAnnunzio/esteta.md -> letteratura/DAnnunzio/dannunzio-esteta.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: ESTETA
-letteratura/DAnnunzio/il-piacere.md -> letteratura/DAnnunzio/dannunzio-il-piacere.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: IL PIACERE
-letteratura/DAnnunzio/intro.md -> letteratura/DAnnunzio/dannunzio-intro.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: INTRO
-letteratura/DAnnunzio/la-pioggia-nel-pineto.md -> letteratura/DAnnunzio/dannunzio-la-pioggia-nel-pineto.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: LA PIOGGIA NEL PINETO
-letteratura/DAnnunzio/la-sera-fiesolana.md -> letteratura/DAnnunzio/dannunzio-la-sera-fiesolana.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: LA SERA FIESOLANA
-letteratura/DAnnunzio/le-laudi.md -> letteratura/DAnnunzio/dannunzio-le-laudi.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: LE LAUDI
-letteratura/DAnnunzio/poetica.md -> letteratura/DAnnunzio/dannunzio-poetica.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: POETICA
-letteratura/DAnnunzio/scandali.md -> letteratura/DAnnunzio/dannunzio-scandali.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: SCANDALI
-letteratura/DAnnunzio/sentimento-base.md -> letteratura/DAnnunzio/dannunzio-sentimento-base.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: SENTIMENTO BASE
-letteratura/DAnnunzio/superomismo.md -> letteratura/DAnnunzio/dannunzio-superomismo.md | AUTORE: GABRIELE D'ANNUNZIO | TIPO: SUPEROMISMO
-letteratura/Foscolo/il-titanismo.md -> letteratura/Foscolo/foscolo-il-titanismo.md | AUTORE: UGO FOSCOLO | TIPO: IL TITANISMO
-letteratura/Foscolo/la-presa-di-coscienza-dialogo-della-natura-e-di-un-islandese.md -> letteratura/Foscolo/foscolo-la-presa-di-coscienza-dialogo-della-natura-e-di-un-islandese.md | AUTORE: UGO FOSCOLO | TIPO: LA PRESA DI COSCIENZA DIALOGO DELLA NATURA E DI UN ISLANDESE
-letteratura/Foscolo/leopardi-e-il-romanticismo.md -> letteratura/Foscolo/foscolo-leopardi-e-il-romanticismo.md | AUTORE: UGO FOSCOLO | TIPO: LEOPARDI E IL ROMANTICISMO
-letteratura/Foscolo/leopardi-lo-sconforto.md -> letteratura/Foscolo/foscolo-leopardi-lo-sconforto.md | AUTORE: UGO FOSCOLO | TIPO: LEOPARDI LO SCONFORTO
-letteratura/Foscolo/linfinito.md -> letteratura/Foscolo/foscolo-linfinito.md | AUTORE: UGO FOSCOLO | TIPO: LINFINITO
-letteratura/Foscolo/lo-stoicismo-approfondimento.md -> letteratura/Foscolo/foscolo-lo-stoicismo-approfondimento.md | AUTORE: UGO FOSCOLO | TIPO: LO STOICISMO APPROFONDIMENTO
-letteratura/Foscolo/lo-stoicismo.md -> letteratura/Foscolo/foscolo-lo-stoicismo.md | AUTORE: UGO FOSCOLO | TIPO: LO STOICISMO
-letteratura/Foscolo/pessimismo-cosmico.md -> letteratura/Foscolo/foscolo-pessimismo-cosmico.md | AUTORE: UGO FOSCOLO | TIPO: PESSIMISMO COSMICO
-letteratura/Foscolo/pessimismo-storico.md -> letteratura/Foscolo/foscolo-pessimismo-storico.md | AUTORE: UGO FOSCOLO | TIPO: PESSIMISMO STORICO
-letteratura/Foscolo/poetica-del-vago-e-dell-indefinito.md -> letteratura/Foscolo/foscolo-poetica-del-vago-e-dell-indefinito.md | AUTORE: UGO FOSCOLO | TIPO: POETICA DEL VAGO E DELL INDEFINITO
-letteratura/Foscolo/tre-momenti.md -> letteratura/Foscolo/foscolo-tre-momenti.md | AUTORE: UGO FOSCOLO | TIPO: TRE MOMENTI
-letteratura/Foscolo/un-meccanicismo-con-lanima.md -> letteratura/Foscolo/foscolo-un-meccanicismo-con-lanima.md | AUTORE: UGO FOSCOLO | TIPO: UN MECCANICISMO CON LANIMA
-letteratura/Foscolo/zibaldone.md -> letteratura/Foscolo/foscolo-zibaldone.md | AUTORE: UGO FOSCOLO | TIPO: ZIBALDONE
-letteratura/Leopardi/dialogo-della-natura-e-di-un-islandese.md -> letteratura/Leopardi/leopardi-dialogo-della-natura-e-di-un-islandese.md | AUTORE: GIACOMO LEOPARDI | TIPO: DIALOGO DELLA NATURA E DI UN ISLANDESE
-letteratura/Leopardi/il-titanismo.md -> letteratura/Leopardi/leopardi-il-titanismo.md | AUTORE: GIACOMO LEOPARDI | TIPO: IL TITANISMO
-letteratura/Leopardi/linfinito.md -> letteratura/Leopardi/leopardi-linfinito.md | AUTORE: GIACOMO LEOPARDI | TIPO: LINFINITO
-letteratura/Leopardi/lo-stoicismo-approfondimento.md -> letteratura/Leopardi/leopardi-lo-stoicismo-approfondimento.md | AUTORE: GIACOMO LEOPARDI | TIPO: LO STOICISMO APPROFONDIMENTO
-letteratura/Leopardi/lo-stoicismo.md -> letteratura/Leopardi/leopardi-lo-stoicismo.md | AUTORE: GIACOMO LEOPARDI | TIPO: LO STOICISMO
-letteratura/Leopardi/pessimismo-cosmico.md -> letteratura/Leopardi/leopardi-pessimismo-cosmico.md | AUTORE: GIACOMO LEOPARDI | TIPO: PESSIMISMO COSMICO
-letteratura/Leopardi/pessimismo-storico.md -> letteratura/Leopardi/leopardi-pessimismo-storico.md | AUTORE: GIACOMO LEOPARDI | TIPO: PESSIMISMO STORICO
-letteratura/Leopardi/poetica-del-vago-e-dell-indefinito.md -> letteratura/Leopardi/leopardi-poetica-del-vago-e-dell-indefinito.md | AUTORE: GIACOMO LEOPARDI | TIPO: POETICA DEL VAGO E DELL INDEFINITO
-letteratura/Leopardi/tre-momenti.md -> letteratura/Leopardi/leopardi-tre-momenti.md | AUTORE: GIACOMO LEOPARDI | TIPO: TRE MOMENTI
-letteratura/Leopardi/un-meccanicismo-con-lanima.md -> letteratura/Leopardi/leopardi-un-meccanicismo-con-lanima.md | AUTORE: GIACOMO LEOPARDI | TIPO: UN MECCANICISMO CON LANIMA
-letteratura/Leopardi/zibaldone.md -> letteratura/Leopardi/leopardi-zibaldone.md | AUTORE: GIACOMO LEOPARDI | TIPO: ZIBALDONE
-letteratura/Manzoni/alcuni-capitoli.md -> letteratura/Manzoni/manzoni-alcuni-capitoli.md | AUTORE: ALESSANDRO MANZONI | TIPO: ALCUNI CAPITOLI
-letteratura/Manzoni/conversione.md -> letteratura/Manzoni/manzoni-conversione.md | AUTORE: ALESSANDRO MANZONI | TIPO: CONVERSIONE
-letteratura/Manzoni/giansenismo.md -> letteratura/Manzoni/manzoni-giansenismo.md | AUTORE: ALESSANDRO MANZONI | TIPO: GIANSENISMO
-letteratura/Manzoni/i-promessi-sposi.md -> letteratura/Manzoni/manzoni-i-promessi-sposi.md | AUTORE: ALESSANDRO MANZONI | TIPO: I PROMESSI SPOSI
-letteratura/Manzoni/la-provvidenza-seconda-fase.md -> letteratura/Manzoni/manzoni-la-provvidenza-seconda-fase.md | AUTORE: ALESSANDRO MANZONI | TIPO: LA PROVVIDENZA SECONDA FASE
-letteratura/Manzoni/opere-prima-fase.md -> letteratura/Manzoni/manzoni-opere-prima-fase.md | AUTORE: ALESSANDRO MANZONI | TIPO: OPERE PRIMA FASE
-letteratura/Manzoni/provvidenza-2-fasi.md -> letteratura/Manzoni/manzoni-provvidenza-2-fasi.md | AUTORE: ALESSANDRO MANZONI | TIPO: PROVVIDENZA 2 FASI
-letteratura/Manzoni/provvidenza-prima-fase.md -> letteratura/Manzoni/manzoni-provvidenza-prima-fase.md | AUTORE: ALESSANDRO MANZONI | TIPO: PROVVIDENZA PRIMA FASE
-letteratura/Manzoni/vita.md -> letteratura/Manzoni/manzoni-vita.md | AUTORE: ALESSANDRO MANZONI | TIPO: VITA
-letteratura/Pirandello/filosofia-base.md -> letteratura/Pirandello/pirandello-filosofia-base.md | AUTORE: LUIGI PIRANDELLO | TIPO: FILOSOFIA BASE
-letteratura/Pirandello/poetica-umorismo.md -> letteratura/Pirandello/pirandello-poetica-umorismo.md | AUTORE: LUIGI PIRANDELLO | TIPO: POETICA UMORISMO
-letteratura/Pirandello/romanzi/fu-mattia-pascal.md -> letteratura/Pirandello/romanzi/pirandello-fu-mattia-pascal.md | AUTORE: LUIGI PIRANDELLO | TIPO: FU MATTIA PASCAL
-letteratura/Pirandello/romanzi/uno-nessuno-centomila.md -> letteratura/Pirandello/romanzi/pirandello-uno-nessuno-centomila.md | AUTORE: LUIGI PIRANDELLO | TIPO: UNO NESSUNO CENTOMILA
-letteratura/Pirandello/sintesi-generale.md -> letteratura/Pirandello/pirandello-sintesi-generale.md | AUTORE: LUIGI PIRANDELLO | TIPO: SINTESI GENERALE
-letteratura/Pirandello/teatro/cosi-e-se-vi-pare.md -> letteratura/Pirandello/teatro/pirandello-cosi-e-se-vi-pare.md | AUTORE: LUIGI PIRANDELLO | TIPO: COSI E SE VI PARE
-letteratura/Pirandello/teatro/sei-personaggi-in-cerca-d-autore.md -> letteratura/Pirandello/teatro/pirandello-sei-personaggi-in-cerca-d-autore.md | AUTORE: LUIGI PIRANDELLO | TIPO: SEI PERSONAGGI IN CERCA D AUTORE
-letteratura/Verga/naturalismo.md -> letteratura/Verga/verga-naturalismo.md | AUTORE: GIOVANNI VERGA | TIPO: NATURALISMO
-letteratura/Verga/opere.md -> letteratura/Verga/verga-opere.md | AUTORE: GIOVANNI VERGA | TIPO: OPERE
-letteratura/Verga/poetica.md -> letteratura/Verga/verga-poetica.md | AUTORE: GIOVANNI VERGA | TIPO: POETICA
-letteratura/Verga/positivismo.md -> letteratura/Verga/verga-positivismo.md | AUTORE: GIOVANNI VERGA | TIPO: POSITIVISMO
-letteratura/Verga/visione-del-mondo.md -> letteratura/Verga/verga-visione-del-mondo.md | AUTORE: GIOVANNI VERGA | TIPO: VISIONE DEL MONDO
+letteratura/Pascoli/digitale-purpurea.md -> letteratura/Pascoli/pascoli-digitale-purpurea.md | AUTORE: GIOVANNI PASCOLI | TIPO: DIGITALE PURPUREA
+letteratura/Pascoli/forma.md -> letteratura/Pascoli/pascoli-forma.md | AUTORE: GIOVANNI PASCOLI | TIPO: FORMA
+letteratura/Pascoli/poetica-del-fanciullino.md -> letteratura/Pascoli/pascoli-poetica-del-fanciullino.md | AUTORE: GIOVANNI PASCOLI | TIPO: POETICA DEL FANCIULLINO
+letteratura/Pascoli/simbolismo.md -> letteratura/Pascoli/pascoli-simbolismo.md | AUTORE: GIOVANNI PASCOLI | TIPO: SIMBOLISMO
+letteratura/Pascoli/stupore.md -> letteratura/Pascoli/pascoli-stupore.md | AUTORE: GIOVANNI PASCOLI | TIPO: STUPORE
+letteratura/Pascoli/visione-del-mondo.md -> letteratura/Pascoli/pascoli-visione-del-mondo.md | AUTORE: GIOVANNI PASCOLI | TIPO: VISIONE DEL MONDO
+letteratura/Pascoli/vita.md -> letteratura/Pascoli/pascoli-vita.md | AUTORE: GIOVANNI PASCOLI | TIPO: VITA
+letteratura/Svevo/biografia.md -> letteratura/Svevo/svevo-biografia.md | AUTORE: ITALO SVEVO | TIPO: BIOGRAFIA
+letteratura/Svevo/deflagrazione-finale.md -> letteratura/Svevo/svevo-deflagrazione-finale.md | AUTORE: ITALO SVEVO | TIPO: DEFLAGRAZIONE FINALE
+letteratura/Svevo/funerale-guido-lapsus.md -> letteratura/Svevo/svevo-funerale-guido-lapsus.md | AUTORE: ITALO SVEVO | TIPO: FUNERALE GUIDO LAPSUS
+letteratura/Svevo/inetto-uomo-futuro.md -> letteratura/Svevo/svevo-inetto-uomo-futuro.md | AUTORE: ITALO SVEVO | TIPO: INETTO UOMO FUTURO
+letteratura/Svevo/personaggi-principali.md -> letteratura/Svevo/svevo-personaggi-principali.md | AUTORE: ITALO SVEVO | TIPO: PERSONAGGI PRINCIPALI
+letteratura/Svevo/poetica-ironia-senso-colpa.md -> letteratura/Svevo/svevo-poetica-ironia-senso-colpa.md | AUTORE: ITALO SVEVO | TIPO: POETICA IRONIA SENSO COLPA
+letteratura/Svevo/riassunto-coscienza-zeno.md -> letteratura/Svevo/svevo-riassunto-coscienza-zeno.md | AUTORE: ITALO SVEVO | TIPO: RIASSUNTO COSCIENZA ZENO
+letteratura/Svevo/struttura-coscienza-zeno.md -> letteratura/Svevo/svevo-struttura-coscienza-zeno.md | AUTORE: ITALO SVEVO | TIPO: STRUTTURA COSCIENZA ZENO
+letteratura/Svevo/tre-giudizi-inetto.md -> letteratura/Svevo/svevo-tre-giudizi-inetto.md | AUTORE: ITALO SVEVO | TIPO: TRE GIUDIZI INETTO
+letteratura/Svevo/verita-prefazioni.md -> letteratura/Svevo/svevo-verita-prefazioni.md | AUTORE: ITALO SVEVO | TIPO: VERITA PREFAZIONI
+letteratura/Svevo/zeno-complessita-vita.md -> letteratura/Svevo/svevo-zeno-complessita-vita.md | AUTORE: ITALO SVEVO | TIPO: ZENO COMPLESSITA VITA
+letteratura/Svevo/zeno-padre.md -> letteratura/Svevo/svevo-zeno-padre.md | AUTORE: ITALO SVEVO | TIPO: ZENO PADRE

@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: STRUTTURA COSCIENZA ZENO
+
 Lezione: La vita di Zeno e la struttura non cronologica del romanzo
 1. Introduzione
 Nel romanzo La coscienza di Zeno di Italo Svevo accade qualcosa di insolito: la vita del protagonista non viene raccontata in ordine cronologico. Questo non significa che la vita di Zeno non abbia una cronologia; significa invece che il romanzo sceglie di raccontarla secondo un altro criterio: quello della coscienza.

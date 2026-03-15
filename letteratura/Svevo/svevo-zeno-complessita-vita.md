@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: ZENO COMPLESSITA VITA
+
 Zeno di fronte alla complessità della vita
 Introduzione
 Uno dei temi centrali de La coscienza di Zeno di Italo Svevo è il rapporto tra l'individuo moderno e la complessità della vita. Zeno Cosini non è un eroe tradizionale: è un uomo che riflette continuamente su se stesso, che analizza ogni gesto, ogni emozione, ogni decisione. Questa coscienza ipertrofica, invece di aiutarlo a vivere meglio, lo rende spesso incapace di agire con naturalezza.

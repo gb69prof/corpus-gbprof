@@ -1,5 +1,5 @@
-ITALO SVEVO
-BIOGRAFIA
+AUTORE: ITALO SVEVO
+TIPO: BIOGRAFIA
 
 
 1. Le origini: da Ettore Schmitz a Italo Svevo

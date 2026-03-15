@@ -1,3 +1,6 @@
+AUTORE: ITALO SVEVO
+TIPO: ZENO PADRE
+
 Zeno e il padre – spiegazione per video (HeyGen)
 Introduzione
 Uno dei nodi più profondi della Coscienza di Zeno di Italo Svevo è il rapporto tra Zeno e il padre. A prima vista sembra semplice: il padre rappresenta l’uomo sano, forte, sicuro; Zeno invece appare debole, indeciso, inetto.
