@@ -1,0 +1,144 @@
+AUTORE: Ariosto
+TIPO: lezione
+
+Angelica dal paradiso al sabbione
+________________
+
+
+Dal “pare” di Dante al “parea” di Ariosto: il volto della donna tra Medioevo e Rinascimento
+Tra la letteratura medievale e quella rinascimentale si assiste a un profondo mutamento nella rappresentazione del mondo, dell’individuo e, in particolare, della figura femminile. Due celebri versi, divenuti simbolici di questo passaggio, ne segnano la trasformazione:
+“Tanto gentile e tanto onesta pare / la donna mia quand’ella altrui saluta…” (Dante, Vita Nova)
+“Non dico ch’ella fosse, ma parea / Angelica gentil ch’egli tant’ama.” (Ariosto, Orlando Furioso)
+La donna nel mondo cortese e stilnovista
+Nel pensiero medievale, la donna è al centro di un universo teocentrico e simbolico: è guida spirituale, manifestazione terrena del divino, tramite tra l’anima e Dio. Beatrice, in Dante, non è solo oggetto d’amore, ma presenza salvifica, principio di elevazione morale e intellettuale. Il verbo “pare” non esprime un’apparenza ingannevole, ma una verità luminosa e manifesta: pare perché è, l’essenza coincide con l’apparire. La bellezza visibile è segno di una nobiltà interiore altrettanto reale. In questo contesto, il mondo è visto come un ordine armonico voluto da Dio, dove le cose non celano, ma rivelano; dove il nome riflette l’essenza (nomen omen), e la parola ha potere di verità.
+________________
+
+
+La donna nella letteratura rinascimentale
+Con il Rinascimento, la rappresentazione della donna – e più in generale della realtà – si fa più incerta, ambigua, sfuggente. In Orlando Furioso, Ariosto non descrive un mondo stabile, ordinato da un disegno divino, ma un universo in cui l’apparenza disorienta e il senso sfugge. Quando Orlando crede di vedere Angelica, il poeta avverte:
+“Non dico ch’ella fosse, ma parea…”
+Quel “parea” non conferma, ma insinua il dubbio. Non è verità che si manifesta, ma illusione che confonde. Angelica non è ciò che Orlando crede: è un’apparenza, un’eco, un’immagine che inganna i sensi. Non più la donna-angelo, simbolo del divino, ma una figura fluida, irraggiungibile, che sfugge a ogni definizione. L’uomo non legge più il vero nel volto dell’altro: ne rincorre il riflesso, spesso deformato dal proprio desiderio.
+Il mondo di Ariosto non è più specchio del Creatore, ma labirinto di segni instabili, dove il visibile non rivela ma cela. È lo stesso spaesamento che Shakespeare metterà in bocca a Giulietta, in Romeo e Giulietta:
+“Che cos’è un nome? Quella che chiamiamo rosa / anche con un altro nome avrebbe lo stesso dolce profumo.”
+Il nome non garantisce più la verità. Le parole non contengono più il mondo. La realtà, ormai, non è più ciò che pare ma è ciò che appare e ciò che appare non è più la verità.
+________________
+
+
+✦ Confronto riassuntivo
+Aspetto
+	Dante (Medioevo)
+	Ariosto (Rinascimento)
+	Figura femminile
+	Beatrice, trasparente al divino
+	Angelica, figura ingannevole
+	Verbo chiave
+	pare = rivelazione
+	parea = apparenza, illusione
+	Visione del mondo
+	Ordinato, leggibile, simbolico
+	Ambiguo, da decifrare, instabile
+	Valore del nome
+	Nome = cosa (nomen omen)
+	Il nome non dice l’essenza
+	Funzione della poesia
+	Rivelare il vero
+	Raccontare il disinganno
+	
+
+
+
+  
+________________
+
+Angelica e la morte del “cor gentil”
+Nel cuore della tradizione cortese, un principio pare sorreggere ogni dinamica d’amore:
+«Al cor gentil rempaira sempre amore»
+Così scrive Guido Guinizzelli, e lo stesso Dante lo riprende, anche nel canto V dell’Inferno, attraverso le parole tragiche di Francesca da Rimini:
+«Amor, ch’al cor gentil ratto s’apprende...»
+In questa visione, l’amore non nasce da una scelta razionale, ma da un’affinità spontanea e profonda. È un moto naturale dell’anima, che si sprigiona tra due essenze nobili come il fuoco dalla fiamma. L’amore è legge: universale, morale, spirituale. È principio cosmico e forza ordinatrice: chi è amato non può che amare.
+Ma nel Rinascimento, questo ordine si incrina. Il mondo non appare più retto da un disegno divino, e nemmeno l’amore segue più le sue antiche leggi. A sancire la fine di quell’ideale è proprio Angelica: la figura che, per bellezza, nobiltà e desiderio cavalleresco, avrebbe dovuto incarnare l’archetipo della donna-angelo.
+E invece, Angelica ne è la negazione. Ama un semplice fante — Medoro — e non il prode Orlando. Non risponde all’elevazione spirituale, ma sceglie liberamente, umanamente. Con lei muore l’ideale cortese: l’amore non è più legge universale, ma desiderio individuale.
+
+
+________________
+
+
+ Angelica non segue la legge del “cor gentil”
+Nel corso dell’Orlando Furioso, Angelica è inseguita da cavalieri, re ed eroi — Orlando, Rinaldo, Sacripante — tutti disposti a combattere e morire per lei. Ma nessuno la conquista. Fuggitiva, inafferrabile, sfugge a ogni gesto d’amore idealizzante. Finché, quando ormai nessuno la guarda più, è lei a scegliere.
+Incontra Medoro: un giovane semplice, un umile pastore-soldato, non cristiano, ferito e abbandonato sul campo di battaglia. E Ariosto rivela, con tono quasi fiabesco:
+“Questa, se non sapete, Angelica era,
+del gran Can del Catai la figlia altiera.”
+La principessa d’Oriente, celata sotto un’apparenza pastorale, compie un gesto inatteso: è lei — non l’eroe — a prendere l’iniziativa, a curarlo, salvarlo, amarlo.
+Simbolico è anche il gesto di spogliarsi delle vesti nobili per indossare gli abiti di una contadina: Angelica rinuncia consapevolmente alla nobiltà apparente, alla regalità imposta dalla nascita. Per amare davvero, deve liberarsi dell’abito esteriore, svestirsi dei ruoli imposti e scegliere da sé chi essere e chi amare.
+Per la prima volta, Angelica non è oggetto di un desiderio maschile, ma soggetto agente. Non è proiezione, ma presenza viva. Non più inseguita, è lei che si muove verso l’altro. E in quel gesto — umile, concreto, compassionevole — si apre il primo spiraglio della sua umanizzazione.
+Non si innamora di un paladino celebre, non cerca gloria, lignaggio o fama. Sceglie liberamente, senza vincoli simbolici o “cuori gentili” a chiamarla. Nessuna affinità spirituale predestinata, nessun disegno divino. Solo una donna che vede, ascolta e ama.
+________________
+
+
+L’amore come scelta, non come destino
+“Angelica a Medor la prima rosa
+coglier lasciò, non ancor tocca inante.”
+Il verso è limpido, inequivocabile: l’amore è stato consumato. Non come premio per imprese eroiche, né come epifania di grazia divina, ma come gesto umano, consapevole, terreno. La “rosa” non è più simbolo stilnovista di purezza ideale: è corpo, è scelta, è dono offerto senza intermediari, senza riti, senza predestinazioni.
+Angelica non è più la creatura angelicata della poesia cortese, ma una donna reale, che si libera dal ruolo di trofeo e si fa soggetto attivo del proprio desiderio. Non è ornamento, né oggetto di conquista. È lei che ama, sceglie, si dona — non per dovere, ma per volontà.
+L’atto d’amore è pieno, autonomo, concreto. Angelica non è più un’immagine da inseguire, ma una presenza che decide, che agisce, che ama, fuori da ogni schema cortese o cavalleresco.
+________________
+
+
+Una rivoluzione silenziosa
+In quel gesto — silenzioso, privato, non celebrato da poeti — muore per sempre l’antico legame tra amore e nobiltà. L’amore non è più lo specchio dell’anima. Non nasce più “ratto” nel cuore gentile. Nasce dove nessuno lo guarda, tra una donna che ha smesso di essere mito e un ragazzo che non ha titoli, ma ha occhi e ferite.
+Angelica non è più Beatrice. E nemmeno Francesca. È la donna moderna. Non attende di essere scelta. Sceglie.
+________________
+
+
+La caduta della donna-angelo: da “in gloria” a “sul sabbione”
+Nella lirica cortese e nello stilnovismo, la donna è spesso posta in una dimensione celeste, inaccessibile, angelica. Jacopo da Lentini scrive:
+“veggendo la mia donna in ghiora stare.”
+E Dante, nella Vita nova e nella Commedia, rafforza questa immagine. Beatrice non appartiene alla terra: è figura sacra, ponte tra l’umano e il divino. Quando appare, l’uomo si innalza. Quando parla, si rivela il vero.
+Ma nel Furioso, qualcosa si spezza. Angelica, che da principio sembra ricalcare l’archetipo della donna-angelo, cade letteralmente e simbolicamente:
+“Levò le gambe ed uscì de l’arcione,
+e si trovò riversa in sul sabbione.”
+È un verso semplice, ma potentissimo. Angelica non è più sospesa tra i sogni e gli ideali: è sulla sabbia, a terra, vulnerabile, inseguita da Orlando. È una caduta fisica, certo, ma anche letteraria e simbolica.
+Da immagine celeste, si fa corpo. Da ispirazione, si fa persona. La poesia d’amore non la canta più: la rincorre.
+________________
+
+
+Dall’alto alla polvere
+Nessuna aura divina la circonda. Nessun incanto cortese la preserva. Angelica cade da cavallo: cade dall’ideale all’umano, dal mito alla carne. Ed è proprio lì, nella polvere, che inizia a diventare vera.
+La donna-angelo precipita. Non è più sospesa tra sogno e ideale: ora è sulla terra, fragile, vulnerabile, autentica.
+La sua caduta non è solo fisica, ma simbolica: è il passaggio dalla letteratura dell’elevazione alla narrazione della realtà. Angelica rotola giù dall’altare della poesia cortese per toccare la vita vera, concreta.
+Con questa scena, Ariosto infrange il mito della perfezione femminile come oggetto da contemplare e adorare. Angelica non sta più “in gloria”. Sta “sul sabbione”. Ed è proprio da lì, da quel corpo steso a terra, che può cominciare a vivere non più come icona, ma come soggetto umano, capace di desiderare, scegliere, amare.
+________________
+
+
+Conclusione: la donna non è più miracolo, ma scelta
+Dopo la caduta, Angelica non svanisce. Non si dissolve in allegoria. Si rialza. Guarisce Medoro. Si innamora. Fa l’amore. Fugge. Vive. La “gloria” che le assegnava la letteratura cortese, Ariosto la sostituisce con la libertà del gesto umano, con la fragilità concreta di un corpo che sceglie.
+La donna-angelo è caduta. Ma non è un disastro: è una nascita.
+________________
+
+
+Angelica esce di scena: la donna oltre la poesia
+Dopo aver amato, scelto, vissuto… Angelica scompare. Non muore, non viene punita, non viene celebrata. Non fonda stirpi, non genera eroi. Semplicemente esce dal poema. Come se, ormai, non appartenesse più alla dimensione della poesia cavalleresca, ma solo a quella della vita vera.
+Nessun poeta la piange. Nessun cantore la esalta. Non è madre, non è martire, non è simbolo. È soltanto una donna che ha scelto l’amore e poi se n’è andata.
+Questo silenzio è la più radicale delle rivoluzioni. Angelica non diventa archetipo, non si cristallizza in allegoria. Non assolve al compito narrativo di fondare un ordine o tramandare un mito, come faranno Ruggiero e Bradamante.
+Si nega al mito per vivere.
+Angelica scende dalla letteratura. Non è più un personaggio da leggere. È un essere umano che sfugge alla pagina.
+E forse è proprio questo il segreto che Ariosto vuole consegnarci: la vera donna — quella libera, viva, imperfetta — non può stare nei confini chiusi di un poema epico. La poesia la rincorre, la idealizza, la trasfigura... ma lei, semplicemente, va altrove.
+________________
+
+
+Ultimo sguardo
+Si spegne la luce s’accende la vita
+Angelica è caduta sul sabbione, si è rialzata, ha amato. E poi ha compiuto il gesto più umano e, insieme, più rivoluzionario: è uscita dalla storia per entrare nella vita.
+Non è rimasta tra le pagine, non ha chiesto memoria. Ha scelto l’oblio dei poemi per l’intensità dell’esistere. In un mondo che vuole simboli, lei ha preferito essere presenza.
+E così, lasciando dietro di sé cavalieri e cantori, Angelica ci insegna che, a volte, il vero coraggio non sta nel restare, ma nell’andare altrove.
+Verso una libertà che non ha bisogno di essere raccontata, perché è semplicemente vissuta.
+
+
+## DOMANDE
+
+- tipo: identità
+  testo: Perché Angelica rompe il modello della donna-angelo?
+- tipo: tensione
+  testo: Perché la libertà di Angelica genera conflitto e follia nei cavalieri?
+- tipo: trasferimento
+  testo: In quali situazioni, oggi, la libertà di una persona viene vissuta dagli altri come minaccia?

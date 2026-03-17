@@ -1,0 +1,85 @@
+AUTORE: Ariosto
+TIPO: lezione
+
+La trasformazione dello scrittore: da autore libero a cortigiano. Il caso di Ariosto
+🏛️ 1. Lo scrittore tra Medioevo e Rinascimento
+Nel Medioevo, lo scrittore è spesso un intellettuale indipendente, che scrive per un piccolo pubblico colto e non vive grazie alla propria arte. La sua figura è ancora legata alla tradizione orale e religiosa: i testi sono per lo più destinati a educare, edificare, trasmettere valori cristiani o cavallereschi.
+Con il Rinascimento, le cose cambiano. Nasce il mecenatismo, cioè il sostegno economico e politico che i signori offrono agli intellettuali in cambio di opere che ne esaltino la gloria. Così lo scrittore diventa cortigiano: vive a corte, partecipa alla vita pubblica, e deve comporre testi che lodino il principe e ne rafforzino l’immagine.
+Ma questa posizione presenta un rischio: il poeta può perdere la propria libertà interiore e diventare un semplice servitore del potere. Alcuni accettano pienamente questo ruolo, altri — come Ludovico Ariosto — lo vivono con consapevolezza critica.
+________________
+
+
+👑 2. Il cortigiano Ariosto e il mecenatismo estense
+Ariosto è al servizio della famiglia d’Este a Ferrara. Lavora prima per il cardinale Ippolito, poi per il duca Alfonso. In cambio del loro sostegno, scrive l’Orlando Furioso, in cui spesso li esalta.
+Nel canto III, per esempio, celebra la genealogia estense presentandola come gloriosa e protetta da Dio:
+«Per opra di costui sarà deserto
+il re de' Longobardi Desiderio:
+d'Este e di Calaon per questo merto
+il bel dominio avrà dal sommo imperio.»
+E nel canto XVIII, si rivolge direttamente al cardinale Ippolito, chiamandolo “magnanimo signore” e lodandone la giustizia e la prudenza.
+Questi sono esempi di encomio cortigiano: Ariosto adempie al proprio ruolo, come ci si aspetta da un poeta alla corte di un principe.
+________________
+
+
+🎭 3. Ma la penna di Ariosto non è servile
+Ariosto, però, non è un semplice cortigiano. È un poeta colto, ironico, pienamente consapevole della fragilità delle promesse del potere e della vanità della gloria.
+Nel canto XXXIV, ci offre una delle sue critiche più pungenti: il viaggio di Astolfo sulla Luna, dove si trovano tutte le cose perdute sulla Terra. Tra queste ci sono anche le promesse dei potenti, i favori di corte, e le illusioni del mecenatismo.
+«I mantici ch’intorno han pieni i greppi,
+sono i fumi dei principi e i favori
+che danno un tempo ai ganimedi suoi,
+che se ne van col fior degli anni poi.»
+«poi vide boccie rotte di più sorti,
+ch’era il servir de le misere corti.»
+Questi versi smascherano le illusioni del servizio cortigiano: i favori sono come aria, le corti come bottiglie rotte. Il poeta che spera in un premio è destinato a restare deluso.
+________________
+
+
+✒️ 4. Le Satire: Ariosto e la libertà dello scrittore
+Oltre al poema epico, Ariosto ci ha lasciato sette Satire in versi, rivolte a amici, parenti o personaggi noti. In esse parla in prima persona, con tono colloquiale e riflessivo. Il tema ricorrente è la difesa della propria indipendenza.
+Nella Satira I, si rifiuta di seguire il duca Alfonso come governatore in Ungheria. Preferisce vivere a Ferrara, magari povero, ma libero:
+«...né voglio andar, per arricchir, lontano,
+lasciando in servitù la libertade.»
+Nella Satira II, rifiuta anche una carriera ecclesiastica a Roma, dove "chi perde l’onore guadagna potere". E nella Satira III, ribadisce che solo chi vive senza servire è davvero felice:
+«Chi può star sol, né serve, né è servito,
+più felice di re, d’empio e d’infinito.»
+Queste satire dimostrano che Ariosto non ha mai rinunciato al proprio pensiero critico. Anche se vive in un sistema di potere, non si lascia assorbire del tutto: la sua vera fedeltà è alla poesia, alla verità, alla libertà interiore.
+________________
+
+
+🌟 5. Conclusione: Ariosto ponte tra due mondi
+Ariosto è un autore rinascimentale, ma conserva l’anima dello scrittore medievale: crede nel valore etico della parola, nella libertà del pensiero, nella possibilità di educare e divertire allo stesso tempo. È un cortigiano che osserva la corte con intelligenza e talvolta con disincanto.
+Attraverso l'ironia, la satira e il simbolismo, ci trasmette un messaggio ancora attuale: si può essere dentro il sistema, ma con lo sguardo libero di chi non si lascia ingannare.
+________________
+
+
+📌 Scheda di sintesi
+Concetto
+	Spiegazione
+	Mecenatismo
+	Sostegno economico dei signori agli intellettuali
+	Scrittore cortigiano
+	Autore che vive a corte e loda il principe
+	Encomio
+	Lode pubblica del mecenate (es. Canto III, XVIII)
+	Critica al potere
+	Nascosta nei simboli e nell’ironia (es. Canto XXXIV, Satire I-III)
+	Libertà di Ariosto
+	Rifiuto del potere che umilia, amore per la dignità e la scrittura
+	________________
+
+
+🧠 Domande per riflettere
+1. In che modo Ariosto riesce a conciliare il ruolo di cortigiano con la sua libertà interiore?
+2. Perché l’episodio di Astolfo sulla Luna è una critica al mecenatismo?
+3. Cosa ci insegna Ariosto oggi sulla dignità dell’artista?
+________________
+
+
+## DOMANDE
+
+- tipo: identità
+  testo: Che rapporto ha Ariosto con il potere e con la vita di corte?
+- tipo: tensione
+  testo: Come può uno scrittore restare libero dentro un sistema che lo mantiene?
+- tipo: trasferimento
+  testo: Qual è oggi il rapporto tra intellettuale, istituzioni e potere?
