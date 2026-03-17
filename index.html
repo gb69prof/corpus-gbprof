@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Letteratura Italiana PWA</title>
+  <meta name='description' content='PWA di letteratura italiana'>
+  <link rel='manifest' href='manifest.webmanifest'>
+  <link rel='icon' href='assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+  <meta name='theme-color' content='#87411f'>
+</head>
+<body>
+<header class='topbar'>
+  <div class='wrap topbar-inner'>
+    <a class='brand' href='index.html'>Letteratura Italiana · PWA</a>
+    <div class='controls'>
+      <button onclick="setTheme('light')">Chiaro</button>
+      <button onclick="setTheme('dark')">Scuro</button>
+      <button onclick="setTheme('sepia')">Seppia</button>
+      <button onclick='fontAdjust(.08)'>A+</button>
+      <button onclick='fontAdjust(-.08)'>A-</button>
+    </div>
+  </div>
+</header>
+
+<main class='wrap'>
+  <section class='hero'>
+    <h1>Letteratura italiana — archivio didattico</h1>
+    <p>Indice generale autori → indice autore → lezione singola. Navigazione chiara, leggibilità elevata e supporto offline.</p>
+    <div id='resumeBox' style='margin-top:.95rem;'></div>
+    <input id='search' class='search' placeholder='Cerca autore o parola chiave...'>
+  </section>
+  <section class='grid'>
+    
+<article class='card searchable' data-search='ariosto un percorso su ariosto con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Ariosto</h3>
+  <p>Un percorso su Ariosto con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/ariosto/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='dannunzio un percorso su dannunzio con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>DAnnunzio</h3>
+  <p>Un percorso su DAnnunzio con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/dannunzio/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='foscolo un percorso su foscolo con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Foscolo</h3>
+  <p>Un percorso su Foscolo con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/foscolo/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='goldoni un percorso su goldoni con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Goldoni</h3>
+  <p>Un percorso su Goldoni con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/goldoni/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='leopardi un percorso su leopardi con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Leopardi</h3>
+  <p>Un percorso su Leopardi con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/leopardi/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='manzoni un percorso su manzoni con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Manzoni</h3>
+  <p>Un percorso su Manzoni con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/manzoni/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='parini un percorso su parini con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Parini</h3>
+  <p>Un percorso su Parini con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/parini/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='pascoli un percorso su pascoli con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Pascoli</h3>
+  <p>Un percorso su Pascoli con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/pascoli/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='pirandello un percorso su pirandello con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Pirandello</h3>
+  <p>Un percorso su Pirandello con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/pirandello/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='svevo un percorso su svevo con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Svevo</h3>
+  <p>Un percorso su Svevo con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/svevo/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='tasso un percorso su tasso con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Tasso</h3>
+  <p>Un percorso su Tasso con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/tasso/index.html'>Entra</a>
+</article>
+<article class='card searchable' data-search='verga un percorso su verga con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e ipad.'>
+  <div class='cover' aria-hidden='true'></div>
+  <div class='meta'>Autore</div>
+  <h3>Verga</h3>
+  <p>Un percorso su Verga con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+  <a class='btn' href='autori/verga/index.html'>Entra</a>
+</article>
+  </section>
+  <p class='footer-note'>I contenuti didattici originali nelle cartelle sorgente sono stati mantenuti e solo riformattati per il web.</p>
+</main>
+
+<button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+<script src='assets/js/app.js'></script>
+</body>
+</html>

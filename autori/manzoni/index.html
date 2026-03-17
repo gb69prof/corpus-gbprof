@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Manzoni · indice</title>
+  <meta name='description' content='PWA di letteratura italiana'>
+  <link rel='manifest' href='../../manifest.webmanifest'>
+  <link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='../../assets/css/styles.css'>
+  <meta name='theme-color' content='#87411f'>
+</head>
+<body>
+<header class='topbar'>
+  <div class='wrap topbar-inner'>
+    <a class='brand' href='../../index.html'>Letteratura Italiana · PWA</a>
+    <div class='controls'>
+      <button onclick="setTheme('light')">Chiaro</button>
+      <button onclick="setTheme('dark')">Scuro</button>
+      <button onclick="setTheme('sepia')">Seppia</button>
+      <button onclick='fontAdjust(.08)'>A+</button>
+      <button onclick='fontAdjust(-.08)'>A-</button>
+    </div>
+  </div>
+</header>
+
+<main class='wrap'>
+  <section class='hero'>
+    <div class='meta'>Autore</div>
+    <h1>Manzoni</h1>
+    <p>Un percorso su Manzoni con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+    <input id='search' class='search' placeholder='Filtra lezioni di Manzoni...'>
+  </section>
+  <section class='card'>
+    <h2>Indice lezioni</h2>
+    <ol><li class='searchable' data-search='alcuni capitoli manzoni'><a href='./manzoni-alcuni-capitoli.html'>alcuni capitoli</a> <span class='meta'>· 18 min</span></li><li class='searchable' data-search='conversione manzoni'><a href='./manzoni-conversione.html'>conversione</a> <span class='meta'>· 2 min</span></li><li class='searchable' data-search='giansenismo manzoni'><a href='./manzoni-giansenismo.html'>giansenismo</a> <span class='meta'>· 1 min</span></li><li class='searchable' data-search='i promessi sposi manzoni'><a href='./manzoni-i-promessi-sposi.html'>i promessi sposi</a> <span class='meta'>· 6 min</span></li><li class='searchable' data-search='la provvidenza seconda fase manzoni'><a href='./manzoni-la-provvidenza-seconda-fase.html'>la Provvidenza seconda fase</a> <span class='meta'>· 6 min</span></li><li class='searchable' data-search='opere prima fase manzoni'><a href='./manzoni-opere-prima-fase.html'>opere prima fase</a> <span class='meta'>· 7 min</span></li><li class='searchable' data-search='provvidenza 2 fasi manzoni'><a href='./manzoni-provvidenza-2-fasi.html'>provvidenza 2 fasi</a> <span class='meta'>· 2 min</span></li><li class='searchable' data-search='provvidenza prima fase manzoni'><a href='./manzoni-provvidenza-prima-fase.html'>provvidenza prima fase</a> <span class='meta'>· 2 min</span></li><li class='searchable' data-search='vita manzoni'><a href='./manzoni-vita.html'>vita</a> <span class='meta'>· 3 min</span></li></ol>
+  </section>
+  <p class='footer-note'><a href='../../index.html'>← Torna all'indice generale</a></p>
+</main>
+
+<button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+<script src='../../assets/js/app.js'></script>
+</body>
+</html>
