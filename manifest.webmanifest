@@ -1,0 +1,17 @@
+{
+  "name": "Letteratura Italiana PWA",
+  "short_name": "Letteratura",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3efe8",
+  "theme_color": "#87411f",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "./assets/images/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Pirandello · indice</title>
+  <meta name='description' content='PWA di letteratura italiana'>
+  <link rel='manifest' href='../../manifest.webmanifest'>
+  <link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='../../assets/css/styles.css'>
+  <meta name='theme-color' content='#87411f'>
+</head>
+<body data-sw='../../sw.js' >
+<header class='topbar'>
+  <div class='wrap topbar-inner'>
+    <a class='brand' href='../../index.html'>Letteratura Italiana · PWA</a>
+    <div class='controls'>
+      <button onclick="setTheme('light')">Chiaro</button>
+      <button onclick="setTheme('dark')">Scuro</button>
+      <button onclick="setTheme('sepia')">Seppia</button>
+      <button onclick='fontAdjust(.08)'>A+</button>
+      <button onclick='fontAdjust(-.08)'>A-</button>
+    </div>
+  </div>
+</header>
+
+<main class='wrap'>
+  <section class='hero'>
+    <div class='meta'>Autore</div>
+    <h1>Pirandello</h1>
+    <p>Un percorso su Pirandello con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+    <input id='search' class='search' placeholder='Filtra lezioni di Pirandello...'>
+  </section>
+  <section class='card'>
+    <h2>Indice lezioni</h2>
+    <ol><li class='searchable' data-search='filosofia base pirandello'><a href='./pirandello-filosofia-base.html'>FILOSOFIA BASE</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='poetica umorismo pirandello'><a href='./pirandello-poetica-umorismo.html'>POETICA UMORISMO</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='sintesi generale pirandello'><a href='./pirandello-sintesi-generale.html'>SINTESI GENERALE</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='fu mattia pascal pirandello'><a href='./pirandello-fu-mattia-pascal.html'>FU MATTIA PASCAL</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='uno nessuno centomila pirandello'><a href='./pirandello-uno-nessuno-centomila.html'>UNO NESSUNO CENTOMILA</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='cosi e se vi pare pirandello'><a href='./pirandello-cosi-e-se-vi-pare.html'>COSI E SE VI PARE</a> <span class='meta'>· 17 min</span></li><li class='searchable' data-search='sei personaggi in cerca d autore pirandello'><a href='./pirandello-sei-personaggi-in-cerca-d-autore.html'>SEI PERSONAGGI IN CERCA D AUTORE</a> <span class='meta'>· 11 min</span></li></ol>
+  </section>
+  <p class='footer-note'><a href='../../index.html'>← Torna all'indice generale</a></p>
+</main>
+
+<button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+<script src='../../assets/js/app.js'></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Verga · indice</title>
+  <meta name='description' content='PWA di letteratura italiana'>
+  <link rel='manifest' href='../../manifest.webmanifest'>
+  <link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='../../assets/css/styles.css'>
+  <meta name='theme-color' content='#87411f'>
+</head>
+<body data-sw='../../sw.js' >
+<header class='topbar'>
+  <div class='wrap topbar-inner'>
+    <a class='brand' href='../../index.html'>Letteratura Italiana · PWA</a>
+    <div class='controls'>
+      <button onclick="setTheme('light')">Chiaro</button>
+      <button onclick="setTheme('dark')">Scuro</button>
+      <button onclick="setTheme('sepia')">Seppia</button>
+      <button onclick='fontAdjust(.08)'>A+</button>
+      <button onclick='fontAdjust(-.08)'>A-</button>
+    </div>
+  </div>
+</header>
+
+<main class='wrap'>
+  <section class='hero'>
+    <div class='meta'>Autore</div>
+    <h1>Verga</h1>
+    <p>Un percorso su Verga con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+    <input id='search' class='search' placeholder='Filtra lezioni di Verga...'>
+  </section>
+  <section class='card'>
+    <h2>Indice lezioni</h2>
+    <ol><li class='searchable' data-search='introduzione: il naturalismo verga'><a href='./verga-naturalismo.html'>Introduzione: Il Naturalismo</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='le opere verga'><a href='./verga-opere.html'>LE OPERE</a> <span class='meta'>· 20 min</span></li><li class='searchable' data-search='la poetica dell’impersonalità verga'><a href='./verga-poetica.html'>La poetica dell’impersonalità</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='approfondimento: il positivismo verga'><a href='./verga-positivismo.html'>APPROFONDIMENTO: IL POSITIVISMO</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='verga: la visione del mondo verga'><a href='./verga-visione-del-mondo.html'>Verga: la visione del mondo</a> <span class='meta'>· 1 min</span></li></ol>
+  </section>
+  <p class='footer-note'><a href='../../index.html'>← Torna all'indice generale</a></p>
+</main>
+
+<button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+<script src='../../assets/js/app.js'></script>
+</body>
+</html>

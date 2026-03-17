@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Ariosto · indice</title>
+  <meta name='description' content='PWA di letteratura italiana'>
+  <link rel='manifest' href='../../manifest.webmanifest'>
+  <link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='../../assets/css/styles.css'>
+  <meta name='theme-color' content='#87411f'>
+</head>
+<body data-sw='../../sw.js' >
+<header class='topbar'>
+  <div class='wrap topbar-inner'>
+    <a class='brand' href='../../index.html'>Letteratura Italiana · PWA</a>
+    <div class='controls'>
+      <button onclick="setTheme('light')">Chiaro</button>
+      <button onclick="setTheme('dark')">Scuro</button>
+      <button onclick="setTheme('sepia')">Seppia</button>
+      <button onclick='fontAdjust(.08)'>A+</button>
+      <button onclick='fontAdjust(-.08)'>A-</button>
+    </div>
+  </div>
+</header>
+
+<main class='wrap'>
+  <section class='hero'>
+    <div class='meta'>Autore</div>
+    <h1>Ariosto</h1>
+    <p>Un percorso su Ariosto con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+    <input id='search' class='search' placeholder='Filtra lezioni di Ariosto...'>
+  </section>
+  <section class='card'>
+    <h2>Indice lezioni</h2>
+    <ol><li class='searchable' data-search='domande ariosto'><a href='./ariosto-angelica.html'>DOMANDE</a> <span class='meta'>· 5 min</span></li><li class='searchable' data-search='domande ariosto'><a href='./ariosto-angelica-dal-paradiso-al-sabbione.html'>DOMANDE</a> <span class='meta'>· 11 min</span></li><li class='searchable' data-search='domande ariosto'><a href='./ariosto-ariostoscrittoredicorte.html'>DOMANDE</a> <span class='meta'>· 5 min</span></li><li class='searchable' data-search='domande ariosto'><a href='./ariosto-evoluzioneangelica.html'>DOMANDE</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='domande ariosto'><a href='./ariosto-l-evoluzione-del-cavaliere.html'>DOMANDE</a> <span class='meta'>· 5 min</span></li><li class='searchable' data-search='domande ariosto'><a href='./ariosto-ledonneorlando.html'>DOMANDE</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='domande ariosto'><a href='./ariosto-orlandofurioso-breve.html'>DOMANDE</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='nodi filosofici ariosto'><a href='./ariosto-nodi-filosofici.html'>Nodi filosofici</a> <span class='meta'>· 1 min</span></li></ol>
+  </section>
+  <p class='footer-note'><a href='../../index.html'>← Torna all'indice generale</a></p>
+</main>
+
+<button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+<script src='../../assets/js/app.js'></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Svevo · indice</title>
+  <meta name='description' content='PWA di letteratura italiana'>
+  <link rel='manifest' href='../../manifest.webmanifest'>
+  <link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='../../assets/css/styles.css'>
+  <meta name='theme-color' content='#87411f'>
+</head>
+<body data-sw='../../sw.js' >
+<header class='topbar'>
+  <div class='wrap topbar-inner'>
+    <a class='brand' href='../../index.html'>Letteratura Italiana · PWA</a>
+    <div class='controls'>
+      <button onclick="setTheme('light')">Chiaro</button>
+      <button onclick="setTheme('dark')">Scuro</button>
+      <button onclick="setTheme('sepia')">Seppia</button>
+      <button onclick='fontAdjust(.08)'>A+</button>
+      <button onclick='fontAdjust(-.08)'>A-</button>
+    </div>
+  </div>
+</header>
+
+<main class='wrap'>
+  <section class='hero'>
+    <div class='meta'>Autore</div>
+    <h1>Svevo</h1>
+    <p>Un percorso su Svevo con lezioni ordinate, materiali originali mantenuti e interfaccia ottimizzata per studio su desktop, tablet e iPad.</p>
+    <input id='search' class='search' placeholder='Filtra lezioni di Svevo...'>
+  </section>
+  <section class='card'>
+    <h2>Indice lezioni</h2>
+    <ol><li class='searchable' data-search='biografia svevo'><a href='./svevo-biografia.html'>BIOGRAFIA</a> <span class='meta'>· 8 min</span></li><li class='searchable' data-search='deflagrazione finale svevo'><a href='./svevo-deflagrazione-finale.html'>DEFLAGRAZIONE FINALE</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='funerale guido lapsus svevo'><a href='./svevo-funerale-guido-lapsus.html'>FUNERALE GUIDO LAPSUS</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='inetto uomo futuro svevo'><a href='./svevo-inetto-uomo-futuro.html'>INETTO UOMO FUTURO</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='personaggi principali svevo'><a href='./svevo-personaggi-principali.html'>PERSONAGGI PRINCIPALI</a> <span class='meta'>· 21 min</span></li><li class='searchable' data-search='pirandello confronto svevo'><a href='./svevo-pirandello-confronto.html'>PIRANDELLO CONFRONTO</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='poetica ironia senso colpa svevo'><a href='./svevo-poetica-ironia-senso-colpa.html'>POETICA IRONIA SENSO COLPA</a> <span class='meta'>· 5 min</span></li><li class='searchable' data-search='sintesi del "preambolo": svevo'><a href='./svevo-riassunto-coscienza-zeno.html'>Sintesi del &quot;Preambolo&quot;:</a> <span class='meta'>· 29 min</span></li><li class='searchable' data-search='struttura coscienza zeno svevo'><a href='./svevo-struttura-coscienza-zeno.html'>STRUTTURA COSCIENZA ZENO</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='tre giudizi inetto svevo'><a href='./svevo-tre-giudizi-inetto.html'>TRE GIUDIZI INETTO</a> <span class='meta'>· 4 min</span></li><li class='searchable' data-search='verita prefazioni svevo'><a href='./svevo-verita-prefazioni.html'>VERITA PREFAZIONI</a> <span class='meta'>· 3 min</span></li><li class='searchable' data-search='zeno complessita vita svevo'><a href='./svevo-zeno-complessita-vita.html'>ZENO COMPLESSITA VITA</a> <span class='meta'>· 5 min</span></li><li class='searchable' data-search='zeno padre svevo'><a href='./svevo-zeno-padre.html'>ZENO PADRE</a> <span class='meta'>· 5 min</span></li></ol>
+  </section>
+  <p class='footer-note'><a href='../../index.html'>← Torna all'indice generale</a></p>
+</main>
+
+<button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+<script src='../../assets/js/app.js'></script>
+</body>
+</html>
