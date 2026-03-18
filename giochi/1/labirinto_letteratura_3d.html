@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Labirinto 3D della Letteratura</title>
+<style>
+  :root{
+    --bg1:#07111f; --bg2:#11243f; --gold:#f5c96a; --ice:#c8e7ff; --text:#eef6ff; --good:#79f2a1; --bad:#ff8f8f;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at top, #173253 0%, #08111f 55%, #040910 100%);color:var(--text);overflow:hidden}
+  button{font:inherit}
+  #app{height:100%;display:grid;grid-template-columns:330px 1fr}
+  aside{
+    border-right:1px solid rgba(255,255,255,.08);
+    background:linear-gradient(180deg, rgba(9,18,31,.92), rgba(5,10,18,.98));
+    padding:18px 16px 14px; overflow:auto;
+  }
+  aside h1{font-size:1.25rem;margin:0 0 8px}
+  aside p{line-height:1.35;margin:.4rem 0;color:#cfe1f7}
+  .chipbar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 14px}
+  .chip{
+    border:1px solid rgba(255,255,255,.14); padding:8px 10px; border-radius:999px;
+    background:rgba(255,255,255,.04); color:var(--ice); cursor:pointer; transition:.2s;
+  }
+  .chip.active,.chip:hover{background:rgba(245,201,106,.12); border-color:rgba(245,201,106,.45); color:#fff}
+  .panel{
+    margin-top:12px; padding:12px 13px; border-radius:18px;
+    background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08);
+    box-shadow:0 8px 24px rgba(0,0,0,.16);
+  }
+  .small{font-size:.92rem;color:#c9d8ea}
+  .sources{font-size:.86rem;color:#a8bfd9;line-height:1.35}
+  .legend{display:grid;gap:8px;margin-top:10px}
+  .legend div{padding:8px 10px;border-radius:12px;background:rgba(255,255,255,.03)}
+  main{position:relative;overflow:hidden}
+  .hud{
+    position:absolute; top:16px; left:18px; right:18px; z-index:20;
+    display:flex; justify-content:space-between; align-items:flex-start; gap:14px; pointer-events:none;
+  }
+  .hudbox{
+    pointer-events:auto;
+    max-width:min(760px, calc(100% - 300px));
+    background:rgba(7,12,21,.58); backdrop-filter: blur(10px);
+    border:1px solid rgba(255,255,255,.12); border-radius:18px; padding:14px 16px;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+  }
+  .hud h2{margin:0 0 6px;font-size:1.12rem}
+  .hud p{margin:0;color:#d6e7fb;line-height:1.4}
+  .progress{
+    min-width:180px;text-align:right;font-weight:700;color:#fff;
+  }
+  .scene{
+    perspective:1300px; height:100%; position:relative;
+    background:
+      radial-gradient(circle at 50% 30%, rgba(113,163,255,.20), transparent 28%),
+      linear-gradient(180deg, rgba(13,28,52,.65), rgba(7,13,23,.82));
+  }
+  .room{
+    position:absolute; inset:0; transform-style:preserve-3d;
+    transition:transform .8s ease, opacity .5s ease;
+  }
+  .world{
+    position:absolute; inset:0; transform-style:preserve-3d;
+    animation: floatWorld 7s ease-in-out infinite;
+  }
+  @keyframes floatWorld{
+    0%,100%{transform:rotateX(2deg) rotateY(0deg)}
+    50%{transform:rotateX(0deg) rotateY(-1.6deg)}
+  }
+  .face{
+    position:absolute; left:50%; top:50%; transform-style:preserve-3d;
+    background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:inset 0 0 40px rgba(255,255,255,.02), 0 10px 30px rgba(0,0,0,.25);
+  }
+  .floor{
+    width:1200px;height:1200px; margin-left:-600px; margin-top:-90px;
+    transform:translateY(340px) rotateX(90deg);
+    background:
+      linear-gradient(0deg, rgba(7,14,23,.96), rgba(11,25,45,.85)),
+      repeating-linear-gradient(90deg, rgba(255,255,255,.07) 0 1px, transparent 1px 75px),
+      repeating-linear-gradient(0deg, rgba(255,255,255,.06) 0 1px, transparent 1px 75px);
+  }
+  .ceiling{
+    width:1200px;height:1200px; margin-left:-600px; margin-top:-720px;
+    transform:translateY(-340px) rotateX(90deg);
+    opacity:.35;
+  }
+  .back{
+    width:1200px;height:680px; margin-left:-600px; margin-top:-340px; transform:translateZ(-420px);
+    background:
+      radial-gradient(circle at 50% 40%, rgba(255,215,127,.12), transparent 24%),
+      linear-gradient(180deg, rgba(18,36,63,.82), rgba(6,12,20,.98));
+  }
+  .left,.right{
+    width:840px;height:680px;margin-top:-340px;
+    background:linear-gradient(180deg, rgba(11,24,44,.9), rgba(6,12,20,.98));
+  }
+  .left{margin-left:-1020px; transform:rotateY(90deg) translateZ(-600px)}
+  .right{margin-left:180px; transform:rotateY(90deg) translateZ(600px)}
+  .portal{
+    position:absolute; left:50%; top:50%; width:180px; height:280px; margin-left:-90px; margin-top:-150px;
+    transform:translateZ(-390px);
+    border-radius:90px 90px 18px 18px;
+    border:2px solid rgba(245,201,106,.4);
+    background:
+      radial-gradient(circle at 50% 38%, rgba(245,201,106,.28), rgba(245,201,106,.02) 58%, transparent 70%),
+      linear-gradient(180deg, rgba(245,201,106,.10), rgba(255,255,255,.01));
+    box-shadow:0 0 40px rgba(245,201,106,.15), inset 0 0 40px rgba(245,201,106,.08);
+  }
+  .portal.locked::after{
+    content:"✦"; position:absolute; inset:auto 0 16px 0; text-align:center; font-size:1.6rem; color:var(--gold)
+  }
+  .orb{
+    position:absolute; width:180px; height:180px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, rgba(255,255,255,.68), rgba(122,183,255,.18) 35%, rgba(0,0,0,.02) 62%, transparent 68%);
+    filter:blur(.3px); opacity:.65; animation:orb 4s ease-in-out infinite;
+  }
+  @keyframes orb{
+    0%,100%{transform:translateY(0px)} 50%{transform:translateY(-10px)}
+  }
+  .token{
+    position:absolute; width:210px; min-height:120px; padding:15px 14px;
+    border-radius:20px; border:1px solid rgba(255,255,255,.15);
+    background:linear-gradient(180deg, rgba(19,35,61,.84), rgba(8,14,25,.95));
+    box-shadow:0 14px 32px rgba(0,0,0,.28), inset 0 0 30px rgba(255,255,255,.02);
+    transform-style:preserve-3d; cursor:pointer; user-select:none;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease, opacity .2s;
+  }
+  .token:hover{transform:scale(1.04) translateZ(10px); border-color:rgba(245,201,106,.55)}
+  .token h3{margin:0 0 8px; font-size:1rem}
+  .token p{margin:0; font-size:.93rem; line-height:1.35; color:#d8e7f9}
+  .token.correct{border-color:rgba(121,242,161,.75); box-shadow:0 0 0 2px rgba(121,242,161,.15), 0 14px 32px rgba(0,0,0,.28)}
+  .token.wrong{border-color:rgba(255,143,143,.8); animation:shake .22s linear 2}
+  @keyframes shake{
+    0%{transform:translateX(0)} 25%{transform:translateX(-5px)} 50%{transform:translateX(5px)} 100%{transform:translateX(0)}
+  }
+  .authorGate{
+    position:absolute; width:180px; height:220px; border-radius:26px;
+    padding:14px; cursor:pointer;
+    background:linear-gradient(180deg, rgba(18,34,59,.8), rgba(8,13,24,.95));
+    border:1px solid rgba(255,255,255,.14); box-shadow:0 10px 30px rgba(0,0,0,.28);
+    transition:.2s;
+  }
+  .authorGate:hover{transform:scale(1.03)}
+  .authorGate h3{margin:8px 0 4px;font-size:1.08rem}
+  .authorGate p{margin:0; color:#d2e5f7; font-size:.92rem}
+  .pillar{
+    position:absolute; width:18px; height:300px; background:linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.01));
+    border-radius:10px; opacity:.65;
+  }
+  .message{
+    position:absolute; left:50%; bottom:16px; transform:translateX(-50%);
+    z-index:30; min-width:280px; max-width:70%;
+    background:rgba(6,11,20,.84); border:1px solid rgba(255,255,255,.12);
+    border-radius:16px; padding:12px 14px; text-align:center; box-shadow:0 8px 26px rgba(0,0,0,.28);
+  }
+  .message.good{border-color:rgba(121,242,161,.45); color:#e9fff0}
+  .message.bad{border-color:rgba(255,143,143,.45); color:#fff0f0}
+  .controls{
+    display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;
+  }
+  .btn{
+    background:rgba(245,201,106,.14); color:#fff; border:1px solid rgba(245,201,106,.35);
+    padding:9px 12px; border-radius:12px; cursor:pointer;
+  }
+  .btn.secondary{background:rgba(255,255,255,.06); border-color:rgba(255,255,255,.14)}
+  .btn:hover{filter:brightness(1.06)}
+  .footerNote{margin-top:14px;font-size:.82rem;color:#9eb5cf}
+  @media (max-width: 980px){
+    #app{grid-template-columns:1fr}
+    aside{display:none}
+    .hud{top:10px;left:10px;right:10px}
+    .hudbox{max-width:100%}
+    .authorGate{width:150px;height:190px}
+    .token{width:180px}
+    .message{max-width:92%}
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <aside>
+    <h1>Labirinto 3D della Letteratura</h1>
+    <p>Un percorso in tre stanze per autore: <strong>immagine del mondo</strong>, <strong>poetica</strong>, <strong>opera o brano</strong>. Non è un quiz lineare: entri in una sala, leggi gli indizi e tocchi il frammento giusto per aprire il portale successivo.</p>
+    <div class="chipbar" id="chips"></div>
+    <div class="panel">
+      <div class="small"><strong>Come si gioca</strong></div>
+      <div class="legend">
+        <div>1. Scegli un autore dall’atrio.</div>
+        <div>2. In ogni stanza clicca il frammento coerente con l’indizio.</div>
+        <div>3. Quando il portale si illumina, passa al livello successivo.</div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="small"><strong>Fonti del percorso</strong></div>
+      <div id="sourceBox" class="sources">Seleziona un autore per vedere i file usati nel corpus.</div>
+    </div>
+    <div class="panel">
+      <div class="small"><strong>Idea didattica</strong></div>
+      <p>Le stanze cambiano atmosfera: ironia per Parini, nulla e memoria per Foscolo, limite e infinito per Leopardi, storia e Provvidenza per Manzoni, “lotta per la vita” per Verga.</p>
+    </div>
+    <div class="footerNote">Contenuti costruiti solo sui file del corpus-gbprof indicati nel pannello fonti.</div>
+  </aside>
+  <main>
+    <div class="hud">
+      <div class="hudbox" id="briefBox">
+        <h2>Atrio</h2>
+        <p>Scegli un autore e attraversa tre livelli. Ogni sala contiene tre frammenti sospesi nello spazio: solo uno apre il passaggio.</p>
+      </div>
+      <div class="hudbox progress" id="progressBox">0/5 autori</div>
+    </div>
+    <div class="scene" id="scene"></div>
+    <div id="messageLayer"></div>
+  </main>
+</div>
+
+<script>
+const authors = {
+  parini: {
+    name: "Parini",
+    tone: "Satira, nobiltà, Moda",
+    sources: [
+      "Parini_parini_pdf.md",
+      "Parini_Alla_dea_moda.md"
+    ],
+    stages: [
+      {
+        title: "Livello 1 · Immagine del mondo",
+        prompt: "Trova il frammento che restituisce la visione pariniana del mondo aristocratico.",
+        correct: 1,
+        options: [
+          {title:"Natura matrigna", text:"Il mondo è dominato da una Natura indifferente che distrugge l’uomo."},
+          {title:"Nobiltà fuori tempo", text:"La nobiltà ha smarrito la sua funzione, capovolge i valori morali ed è un ceto fuori dal suo tempo."},
+          {title:"Provvidenza nella storia", text:"Il male viene trasfigurato da una presenza divina che accompagna gli uomini."}
+        ],
+        clue: "Nel corpus, Parini denuncia una nobiltà oziosa e dannosa, lontana dai valori morali e sociali."
+      },
+      {
+        title: "Livello 2 · Poetica",
+        prompt: "Quale frammento descrive meglio la sua scelta formale e polemica?",
+        correct: 2,
+        options: [
+          {title:"Impersonalità", text:"L’autore scompare e regredisce nel mondo dei personaggi popolari."},
+          {title:"Vago e indefinito", text:"La poesia nasce da ciò che resta sfumato, lontano e incompleto."},
+          {title:"Satira in versi sciolti", text:"Il poemetto sceglie i versi sciolti e una forte polemica antinobiliare, con tono ironico e classico insieme."}
+        ],
+        clue: "Nel proemio Alla Dea Moda il poemetto dichiara di avere scosso il giogo della servile rima."
+      },
+      {
+        title: "Livello 3 · Brano / opera",
+        prompt: "Individua il nucleo giusto del proemio-parodia legato alla Moda.",
+        correct: 0,
+        options: [
+          {title:"Alla Dea Moda", text:"La Moda è venerata come una divinità che sconfigge Ragione, Buon Senso e Ordine."},
+          {title:"Alla sera", text:"La sera è immagine della fatal quiete e spegne lo spirto guerrier."},
+          {title:"L’infinito", text:"Una siepe esclude lo sguardo e accende l’immaginazione dell’oltre."}
+        ],
+        clue: "La stanza finale di Parini è costruita sul proemio di Alla Dea Moda."
+      }
+    ]
+  },
+  foscolo: {
+    name: "Foscolo",
+    tone: "Nulla, illusioni, memoria",
+    sources: [
+      "foscolo-introduzione-poetica.md",
+      "foscolo-meccanicismo.md",
+      "foscolo-alla-sera.md"
+    ],
+    stages: [
+      {
+        title: "Livello 1 · Immagine del mondo",
+        prompt: "Scegli il frammento coerente con l’universo foscoliano.",
+        correct: 2,
+        options: [
+          {title:"Storia progressiva", text:"L’uomo migliora senza fratture grazie al progresso e alla tecnica."},
+          {title:"Ordine provvidenziale", text:"La storia è governata da un disegno benevolo che conduce al bene."},
+          {title:"Universo meccanicista", text:"La natura è materia che segue leggi impersonali; oltre la morte c’è il nulla."}
+        ],
+        clue: "Nel corpus Foscolo è presentato come autore in bilico tra ragione e passione, ma dentro una visione materialista."
+      },
+      {
+        title: "Livello 2 · Poetica",
+        prompt: "Quale varco esprime la sua risposta al nulla?",
+        correct: 1,
+        options: [
+          {title:"Poetica dell’oggettività", text:"Lo scrittore deve sparire e limitarsi a registrare i fatti."},
+          {title:"Religione delle illusioni", text:"Amore, patria, bellezza e poesia sono illusioni necessarie che danno senso alla vita."},
+          {title:"Poetica del coro", text:"La verità morale si affida ai cori tragici che commentano la storia."}
+        ],
+        clue: "Nel corpus le illusioni non sono errore: sono un bisogno umano di eternità."
+      },
+      {
+        title: "Livello 3 · Brano / opera",
+        prompt: "Quale frammento apre la soglia di Alla sera?",
+        correct: 0,
+        options: [
+          {title:"Fatal quiete", text:"La sera è immagine della morte e, proprio per questo, diventa presenza cara e consolatrice."},
+          {title:"Giovane signore", text:"Il protagonista si alza tardi e consacra le ore del mattino alla Moda."},
+          {title:"Malpelo", text:"Un ragazzo escluso dalla società sopravvive in un ambiente ostile dopo la morte del padre."}
+        ],
+        clue: "La parola-chiave del sonetto è ‘fatal quiete’."
+      }
+    ]
+  },
+  leopardi: {
+    name: "Leopardi",
+    tone: "Limite, infinito, Natura",
+    sources: [
+      "leopardi-pessimismo-cosmico.md",
+      "leopardi-poetica-del-vago-e-dell-indefinito.md",
+      "leopardi-linfinito.md",
+      "leopardi-dialogo-della-natura-e-di-un-islandese.md"
+    ],
+    stages: [
+      {
+        title: "Livello 1 · Immagine del mondo",
+        prompt: "Scegli la tessera che descrive il pessimismo cosmico.",
+        correct: 1,
+        options: [
+          {title:"Satira della nobiltà", text:"La società degenerata può essere corretta con l’ironia e l’educazione."},
+          {title:"Natura matrigna", text:"La Natura è indifferente, mira alla specie e non alla felicità del singolo."},
+          {title:"Memoria eroica", text:"La tomba e il canto salvano gli uomini dal nulla."}
+        ],
+        clue: "Nel corpus il dolore non dipende più dalla storia, ma dalla struttura stessa dell’universo."
+      },
+      {
+        title: "Livello 2 · Poetica",
+        prompt: "Quale frammento definisce la sua poetica?",
+        correct: 2,
+        options: [
+          {title:"Impegno civile", text:"La poesia commenta la storia e denuncia l’oppressione dei popoli."},
+          {title:"Versi sciolti satirici", text:"La forma libera serve a colpire ironicamente il costume aristocratico."},
+          {title:"Vago e indefinito", text:"La poesia nasce dal limite, dai suoni lontani, dalla rimembranza e da ciò che non si vede chiaramente."}
+        ],
+        clue: "Per Leopardi il non vedere e il vedere a metà liberano l’immaginazione."
+      },
+      {
+        title: "Livello 3 · Brano / opera",
+        prompt: "Quale frammento appartiene a L’infinito?",
+        correct: 0,
+        options: [
+          {title:"La siepe", text:"Il limite dello sguardo non chiude: genera gli interminati spazi dell’immaginazione."},
+          {title:"La monaca di Monza", text:"Lucia entra in convento e viene accolta da Gertrude."},
+          {title:"La cagnetta", text:"Un servo plebeo viene punito per avere colpito il cane della dama."}
+        ],
+        clue: "Nel corpus si legge che è proprio il limite a generare l’infinito."
+      }
+    ]
+  },
+  manzoni: {
+    name: "Manzoni",
+    tone: "Storia, male, Provvidenza",
+    sources: [
+      "manzoni-la-provvidenza-seconda-fase.md",
+      "manzoni-opere-prima-fase.md",
+      "manzoni-i-promessi-sposi.md"
+    ],
+    stages: [
+      {
+        title: "Livello 1 · Immagine del mondo",
+        prompt: "Quale frammento rende la visione manzoniana della storia matura?",
+        correct: 2,
+        options: [
+          {title:"Natura cieca", text:"L’universo produce e distrugge senza coscienza né pietà."},
+          {title:"Lotta per la vita", text:"La società è una gara naturale in cui il forte schiaccia il debole."},
+          {title:"Provvidenza nella storia", text:"Il male non viene cancellato, ma può diventare occasione di crescita morale e spirituale."}
+        ],
+        clue: "Nel secondo percorso di Manzoni la Provvidenza è una presenza costante dentro la storia."
+      },
+      {
+        title: "Livello 2 · Poetica",
+        prompt: "Apri la sala della poetica manzoniana.",
+        correct: 1,
+        options: [
+          {title:"Poesia come evasione", text:"La letteratura deve allontanarsi dalla storia per cercare armonia ideale."},
+          {title:"Tragedia storica e coro", text:"Manzoni rompe le tre unità e usa i cori per offrire una riflessione morale e religiosa."},
+          {title:"Regressione verista", text:"Il narratore adotta i pregiudizi del villaggio e scompare nel racconto."}
+        ],
+        clue: "Nel corpus le tragedie manzoniane si staccano dal modello classico e affidano molto al coro."
+      },
+      {
+        title: "Livello 3 · Brano / opera",
+        prompt: "Scegli l’opera corretta per attraversare l’ultima porta.",
+        correct: 0,
+        options: [
+          {title:"I promessi sposi", text:"Renzo e Lucia, ostacolati da Don Rodrigo, attraversano carestia, tumulti, rapimenti, peste e conversioni."},
+          {title:"Le Operette morali", text:"Un viaggiatore accusa la Natura di essere nemica scoperta degli uomini."},
+          {title:"Vita dei campi", text:"Una raccolta di novelle su umili e vinti dalla società e dal destino."}
+        ],
+        clue: "La vicenda è ambientata in Lombardia tra il 1628 e il 1630."
+      }
+    ]
+  },
+  verga: {
+    name: "Verga",
+    tone: "Vinti, impersonalità, destino",
+    sources: [
+      "verga-visione-del-mondo.md",
+      "verga-poetica.md",
+      "verga-opere.md"
+    ],
+    stages: [
+      {
+        title: "Livello 1 · Immagine del mondo",
+        prompt: "Quale frammento esprime il suo sguardo sul reale?",
+        correct: 1,
+        options: [
+          {title:"Memoria degli eroi", text:"Le tombe e il ricordo civile sottraggono l’uomo al nulla."},
+          {title:"Lotta per la vita", text:"La società è dominata da un meccanismo crudele in cui il più forte schiaccia il più debole."},
+          {title:"Riscatto storico", text:"Gli oppressi possono cambiare il proprio destino grazie al progresso."}
+        ],
+        clue: "Nel corpus il pessimismo di Verga esclude alternative e riscatto."
+      },
+      {
+        title: "Livello 2 · Poetica",
+        prompt: "Trova la tecnica narrativa decisiva.",
+        correct: 2,
+        options: [
+          {title:"Vago e rimembranza", text:"La poesia nasce da suoni lontani e immagini indefinite."},
+          {title:"Giansenismo", text:"La storia è male e solo all’ultimo istante appare la consolazione divina."},
+          {title:"Impersonalità", text:"L’autore scompare, assume il punto di vista dei personaggi e usa regressione, straniamento e discorso indiretto libero."}
+        ],
+        clue: "Per Verga lo scrittore non deve giudicare né proporre soluzioni."
+      },
+      {
+        title: "Livello 3 · Brano / opera",
+        prompt: "Quale opera-frammento appartiene davvero al suo mondo?",
+        correct: 1,
+        options: [
+          {title:"Il cinque maggio", text:"Napoleone muore e la gloria terrena si rivela caduca."},
+          {title:"Rosso Malpelo", text:"Un ragazzo marchiato dal soprannome e dall’emarginazione sopravvive in un ambiente ostile dopo la morte del padre."},
+          {title:"Alla Dea Moda", text:"La gioventù elegante sacrifica le ore del mattino a un nuovo nume."}
+        ],
+        clue: "Nel corpus Rosso Malpelo è indicato come avvio del Verismo più maturo."
+      }
+    ]
+  }
+};
+
+let state = {
+  screen: "hub",
+  currentAuthor: null,
+  currentStage: 0,
+  completed: new Set(),
+  solvedStageKey: null
+};
+
+const scene = document.getElementById("scene");
+const briefBox = document.getElementById("briefBox");
+const progressBox = document.getElementById("progressBox");
+const messageLayer = document.getElementById("messageLayer");
+const chips = document.getElementById("chips");
+const sourceBox = document.getElementById("sourceBox");
+
+function updateSidebar(activeKey){
+  chips.innerHTML = "";
+  Object.entries(authors).forEach(([key,a])=>{
+    const el = document.createElement("button");
+    el.className = "chip" + (key===activeKey ? " active" : "");
+    el.textContent = a.name;
+    el.onclick = ()=> {
+      if(state.screen === "hub") startAuthor(key);
+      else setSourceOnly(key);
+    };
+    chips.appendChild(el);
+  });
+  if(activeKey){
+    const a = authors[activeKey];
+    sourceBox.innerHTML = `<strong>${a.name}</strong><br>` + a.sources.map(s => `• ${s}`).join("<br>");
+  } else {
+    sourceBox.textContent = "Seleziona un autore per vedere i file usati nel corpus.";
+  }
+}
+updateSidebar(null);
+
+function setSourceOnly(key){ updateSidebar(key); }
+
+function showMessage(text, kind="good", actions=[]){
+  const box = document.createElement("div");
+  box.className = `message ${kind}`;
+  box.innerHTML = `<div>${text}</div>`;
+  if(actions.length){
+    const wrap = document.createElement("div");
+    wrap.className = "controls";
+    actions.forEach(a=>{
+      const btn = document.createElement("button");
+      btn.className = "btn" + (a.secondary ? " secondary" : "");
+      btn.textContent = a.label;
+      btn.onclick = ()=>{ box.remove(); a.onClick(); };
+      wrap.appendChild(btn);
+    });
+    box.appendChild(wrap);
+  }
+  messageLayer.innerHTML = "";
+  messageLayer.appendChild(box);
+}
+function clearMessage(){ messageLayer.innerHTML = ""; }
+
+function updateProgress(){
+  progressBox.textContent = `${state.completed.size}/5 autori`;
+}
+updateProgress();
+
+function setBrief(title, text){
+  briefBox.innerHTML = `<h2>${title}</h2><p>${text}</p>`;
+}
+
+function startAuthor(key){
+  state.screen = "author";
+  state.currentAuthor = key;
+  state.currentStage = 0;
+  state.solvedStageKey = null;
+  updateSidebar(key);
+  renderStage();
+}
+
+function backToHub(){
+  state.screen = "hub";
+  state.currentAuthor = null;
+  state.currentStage = 0;
+  state.solvedStageKey = null;
+  updateSidebar(null);
+  clearMessage();
+  renderHub();
+}
+
+function solveStage(index){
+  const author = authors[state.currentAuthor];
+  const stage = author.stages[state.currentStage];
+  state.solvedStageKey = `${state.currentAuthor}-${state.currentStage}`;
+  if(state.currentStage < 2){
+    showMessage(`Portale aperto. ${stage.clue}`, "good", [
+      {label:"Vai al livello successivo", onClick:()=>{
+        state.currentStage += 1;
+        state.solvedStageKey = null;
+        renderStage();
+      }},
+      {label:"Torna all’atrio", secondary:true, onClick:backToHub}
+    ]);
+  } else {
+    state.completed.add(state.currentAuthor);
+    updateProgress();
+    showMessage(`Percorso di ${author.name} completato. ${stage.clue}`, "good", [
+      {label:"Torna all’atrio", onClick:backToHub}
+    ]);
+  }
+  renderStage();
+}
+
+function wrongPick(){
+  showMessage("Frammento errato: il portale resta chiuso. Rileggi l’indizio e osserva la stanza.", "bad");
+}
+
+function renderHub(){
+  setBrief("Atrio", "Scegli un autore e attraversa tre livelli. Ogni sala contiene tre frammenti sospesi nello spazio: solo uno apre il passaggio.");
+  scene.innerHTML = "";
+  const room = document.createElement("div");
+  room.className = "room";
+  room.innerHTML = `
+    <div class="world">
+      <div class="face floor"></div>
+      <div class="face ceiling"></div>
+      <div class="face back"></div>
+      <div class="face left"></div>
+      <div class="face right"></div>
+      <div class="portal" style="transform:translateZ(-390px) scale(1.5); opacity:.28"></div>
+      <div class="orb" style="left:calc(50% - 90px); top:14%;"></div>
+      <div class="pillar" style="left:14%; top:28%"></div>
+      <div class="pillar" style="left:84%; top:28%"></div>
+    </div>
+  `;
+  scene.appendChild(room);
+
+  const positions = [
+    {left:"14%", top:"56%"},
+    {left:"31%", top:"38%"},
+    {left:"50%", top:"56%"},
+    {left:"68%", top:"38%"},
+    {left:"84%", top:"56%"}
+  ];
+  Object.entries(authors).forEach(([key,a],i)=>{
+    const gate = document.createElement("div");
+    gate.className = "authorGate";
+    gate.style.left = positions[i].left;
+    gate.style.top = positions[i].top;
+    gate.style.transform = "translate(-50%, -50%)";
+    gate.innerHTML = `<div style="font-size:2rem">◈</div><h3>${a.name}</h3><p>${a.tone}</p><p style="margin-top:8px;color:${state.completed.has(key)?'#8ef2b1':'#f5c96a'}">${state.completed.has(key)?'completato':'entra'}</p>`;
+    gate.onclick = ()=>startAuthor(key);
+    scene.appendChild(gate);
+  });
+}
+
+function renderStage(){
+  const key = state.currentAuthor;
+  const author = authors[key];
+  const stage = author.stages[state.currentStage];
+  setBrief(`${author.name} · ${stage.title}`, `${stage.prompt}`);
+  scene.innerHTML = "";
+
+  const room = document.createElement("div");
+  room.className = "room";
+  room.innerHTML = `
+    <div class="world">
+      <div class="face floor"></div>
+      <div class="face ceiling"></div>
+      <div class="face back"></div>
+      <div class="face left"></div>
+      <div class="face right"></div>
+      <div class="portal ${state.solvedStageKey ? "" : "locked"}"></div>
+      <div class="orb" style="left:13%; top:18%;"></div>
+      <div class="orb" style="left:72%; top:16%; animation-delay:-2s"></div>
+    </div>
+  `;
+  scene.appendChild(room);
+
+  const tokenPositions = [
+    {left:"17%", top:"58%", transform:"translateZ(150px) rotateY(12deg)"},
+    {left:"50%", top:"43%", transform:"translateZ(250px) rotateY(0deg)"},
+    {left:"79%", top:"60%", transform:"translateZ(150px) rotateY(-12deg)"}
+  ];
+
+  stage.options.forEach((opt, idx)=>{
+    const token = document.createElement("div");
+    token.className = "token";
+    token.style.left = tokenPositions[idx].left;
+    token.style.top = tokenPositions[idx].top;
+    token.style.transform = tokenPositions[idx].transform;
+    token.innerHTML = `<h3>${opt.title}</h3><p>${opt.text}</p>`;
+    token.onclick = ()=>{
+      clearMessage();
+      if(idx === stage.correct){
+        token.classList.add("correct");
+        solveStage(idx);
+      } else {
+        token.classList.add("wrong");
+        setTimeout(()=>token.classList.remove("wrong"), 450);
+        wrongPick();
+      }
+    };
+    scene.appendChild(token);
+  });
+
+  const backBtn = document.createElement("button");
+  backBtn.className = "btn secondary";
+  backBtn.textContent = "← Atrio";
+  backBtn.style.position = "absolute";
+  backBtn.style.left = "18px";
+  backBtn.style.bottom = "18px";
+  backBtn.style.zIndex = "40";
+  backBtn.onclick = backToHub;
+  scene.appendChild(backBtn);
+
+  const hintBtn = document.createElement("button");
+  hintBtn.className = "btn";
+  hintBtn.textContent = "Indizio";
+  hintBtn.style.position = "absolute";
+  hintBtn.style.left = "102px";
+  hintBtn.style.bottom = "18px";
+  hintBtn.style.zIndex = "40";
+  hintBtn.onclick = ()=> showMessage(stage.clue, "good");
+  scene.appendChild(hintBtn);
+}
+
+renderHub();
+</script>
+</body>
+</html>
