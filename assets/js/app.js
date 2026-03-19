@@ -21,6 +21,36 @@ function getBasePath(){
 
 const basePath=getBasePath();
 
+
+const CHATBOT_URL='https://chatgpt.com/g/g-69b70ec04c2c819196c58ebde82dee1f-libera-corpus-gbprof';
+const CHATBOT_LABEL='Libera corpus-gbprof';
+
+function ensureChatbotAccess(){
+  const controls=$('.controls');
+  if(controls&&!$('.chatbot-link',controls)){
+    const link=document.createElement('a');
+    link.className='btn chatbot-link';
+    link.href=CHATBOT_URL;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    link.title='Apri Libera corpus-gbprof';
+    link.innerHTML=`🤖 <span>${CHATBOT_LABEL}</span>`;
+    controls.prepend(link);
+  }
+  if(!$('.chatbot-fab')){
+    const fab=document.createElement('a');
+    fab.className='chatbot-fab';
+    fab.href=CHATBOT_URL;
+    fab.target='_blank';
+    fab.rel='noopener noreferrer';
+    fab.setAttribute('aria-label',CHATBOT_LABEL);
+    fab.innerHTML=`<span aria-hidden='true'>🤖</span><span>${CHATBOT_LABEL}</span>`;
+    document.body.appendChild(fab);
+    document.body.classList.add('has-chatbot-fab');
+  }
+}
+
+
 function toAppUrl(path=''){
   if(!path)return `${basePath}index.html`;
   if(/^https?:\/\//.test(path))return path;
@@ -44,6 +74,7 @@ function savePrefs(){storage.set('litPrefs',JSON.stringify({theme:root.getAttrib
 window.setTheme=(t)=>{root.setAttribute('data-theme',t);savePrefs()}
 window.fontAdjust=(d)=>{const cur=parseFloat(getComputedStyle(root).getPropertyValue('--fontScale'))||1;const next=Math.min(1.3,Math.max(.9,cur+d));root.style.setProperty('--fontScale',next);savePrefs()}
 const search=$('#search');if(search){search.addEventListener('input',e=>{$$('.searchable').forEach(el=>{const searchableText=(el.dataset.search||el.textContent||'').toLowerCase();el.style.display=searchableText.includes(e.target.value.toLowerCase())?'':'none'})})}
+ensureChatbotAccess();
 const toTop=$('#toTop'); if(toTop){window.addEventListener('scroll',()=>toTop.style.display=window.scrollY>500?'block':'none')}
 const note=$('#localNote'); if(note){const k='note:'+location.pathname; note.value=storage.get(k)||''; note.addEventListener('input',()=>storage.set(k,note.value));}
 const lessonMeta=document.body.dataset.lesson;

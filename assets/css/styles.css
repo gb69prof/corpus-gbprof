@@ -113,7 +113,7 @@ a:hover{text-decoration:underline}
   color:color-mix(in srgb,var(--accent) 76%,var(--text));
 }
 .hero-intro{font-size:1.05rem;max-width:66ch}
-.hero-tools{display:grid;gap:.9rem;margin-top:1.2rem;max-width:56rem}
+.hero-tools{display:grid;gap:.9rem;margin-top:1.35rem;max-width:42rem}
 .search-wrap{
   display:block;
   padding:1rem;
@@ -122,7 +122,6 @@ a:hover{text-decoration:underline}
   background:color-mix(in srgb,var(--panel) 86%,var(--accent-soft) 14%);
 }
 .search-label{display:block;font-size:.84rem;color:var(--muted);font-weight:600;letter-spacing:.02em}
-#resumeBox .btn{background:color-mix(in srgb,var(--accent-soft) 68%,var(--panel));border-color:color-mix(in srgb,var(--accent) 35%,var(--line));font-weight:620}
 .author-section{margin-top:1.5rem}
 .section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap;margin:0 0 1rem}
 .section-head h2{margin:0;font-size:1.6rem;line-height:1.15;letter-spacing:-.01em}
@@ -148,6 +147,28 @@ a:hover{text-decoration:underline}
 .author-card p{margin:0;color:var(--muted)}
 .author-link{align-self:flex-start;background:var(--accent-soft);font-weight:620}
 .chatbot-link{display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap;background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,var(--line));font-weight:620}
+
+
+.chatbot-fab{
+  position:fixed;
+  right:16px;
+  bottom:18px;
+  z-index:45;
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  padding:.62rem .95rem;
+  border-radius:999px;
+  background:color-mix(in srgb,var(--accent-soft) 72%,var(--panel));
+  border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line));
+  color:var(--text);
+  font-weight:650;
+  box-shadow:0 12px 26px rgba(0,0,0,.16);
+  text-decoration:none;
+}
+.chatbot-fab:hover{transform:translateY(-1px);text-decoration:none}
+body.has-chatbot-fab #toTop{bottom:84px}
+
 .author-index .lesson-list,.lesson-list{padding-left:1.2rem;margin:.45rem 0 0}
 .lesson-list>li{margin:.55rem 0}
 .sublesson-list{margin:.45rem 0 0;padding-left:1.1rem;border-left:2px solid color-mix(in srgb,var(--line) 70%,transparent)}
@@ -167,6 +188,7 @@ a:hover{text-decoration:underline}
   .lesson{padding:1.1rem}
   .btn,button{padding:.48rem .72rem}
   .chatbot-link span{display:none}
+  .chatbot-fab{padding:.62rem .8rem}
   .cover-hero{border-radius:20px;padding:1.2rem}
   .hero h1{font-size:clamp(1.6rem,8vw,2.2rem)}
   .hero-intro{font-size:.98rem}
