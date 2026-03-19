@@ -82,3 +82,18 @@ a:hover{text-decoration:underline}
   .lesson{padding:1.1rem}
   .btn,button{padding:.48rem .72rem}
 }
+
+
+.author-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-bottom:1.5rem}
+.author-card{background:linear-gradient(180deg,var(--panel),var(--surface));border:1px solid var(--line);padding:1.2rem;border-radius:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.75rem}
+.author-card h2{margin:0;font-size:1.25rem}
+.author-card p{margin:0;color:var(--muted)}
+.author-link{align-self:flex-start;background:var(--accent-soft)}
+.chatbot-link{display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap;background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,var(--line));font-weight:620}
+.author-index .lesson-list,.lesson-list{padding-left:1.2rem;margin:.45rem 0 0}
+.lesson-list>li{margin:.55rem 0}
+.sublesson-list{margin:.45rem 0 0;padding-left:1.1rem;border-left:2px solid color-mix(in srgb,var(--line) 70%,transparent)}
+.sublesson-list li{margin:.35rem 0}
+.lesson-link{color:var(--text);text-decoration:none;font-weight:520}
+.lesson-link:hover{color:var(--accent);text-decoration:underline}
+@media (max-width:640px){.chatbot-link span{display:none}}

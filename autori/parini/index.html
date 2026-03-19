@@ -1,7 +1,47 @@
-<!doctype html><html lang='it'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>Parini · indice</title><meta name='description' content='PWA di letteratura italiana'>
-<link rel='manifest' href='../../manifest.webmanifest'><link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
-<link rel='stylesheet' href='../../assets/css/styles.css'><meta name='theme-color' content='#8f3e19'>
-</head><body><header class='top'><div class='wrap'><a class='brand' href='../../index.html'>Letteratura Italiana · PWA</a><div class='controls'>
-<button onclick="setTheme('light')">Chiaro</button><button onclick="setTheme('dark')">Scuro</button><button onclick="setTheme('sepia')">Seppia</button>
-<button onclick='fontAdjust(.08)'>A+</button><button onclick='fontAdjust(-.08)'>A-</button></div></div></header><main class='wrap'><section class='hero'><div class='tag'>Autore</div><h1>Parini</h1><p>Percorso dedicato a Parini. Lezioni organizzate in modo progressivo, con materiali originali riformattati per una lettura chiara e consultabile anche offline.</p><input id='search' class='search' placeholder='Filtra lezioni di Parini...'></section><section class='card'><h2>Indice lezioni</h2><ol><li class='searchable' data-search='domandeparini'><a href='parini-alla-dea-moda.html'>DOMANDE</a> <span class='muted'>· 13 min</span></li><li class='searchable' data-search='tu#tra#le#veglie,#e#le#canore#scene,#parini'><a href='parini-parini-pdf.html'>Tu#tra#le#veglie,#e#le#canore#scene,#</a> <span class='muted'>· 20 min</span></li></ol></section><p class='foot'><a href='../../index.html'>← Torna all'indice generale</a></p></main><button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button><script src='../../assets/js/app.js'></script></body></html>
+<!doctype html>
+<html lang='it'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Giuseppe Parini · indice autore</title>
+  <meta name='description' content='Indice delle lezioni di Giuseppe Parini'>
+  <link rel='manifest' href='../../manifest.webmanifest'>
+  <link rel='icon' href='../../assets/images/icon.svg' type='image/svg+xml'>
+  <link rel='stylesheet' href='../../assets/css/styles.css'>
+  <meta name='theme-color' content='#8f3e19'>
+</head>
+<body>
+  <header class='top'>
+    <div class='wrap'>
+      <a class='brand' href='../../index.html'>Corpus Letteratura Italiana</a>
+      <div class='controls'>
+        <a class='btn chatbot-link' href='https://chatgpt.com/g/g-69b70ec04c2c819196c58ebde82dee1f-libera-corpus-gbprof' target='_blank' rel='noopener noreferrer' title='Apri Libera corpus-gbprof'>🤖 <span>Libera corpus-gbprof</span></a>
+        <button onclick="setTheme('light')">Chiaro</button><button onclick="setTheme('dark')">Scuro</button><button onclick="setTheme('sepia')">Seppia</button>
+        <button onclick='fontAdjust(.08)'>A+</button><button onclick='fontAdjust(-.08)'>A-</button>
+      </div>
+    </div>
+  </header>
+
+  <main class='wrap'>
+    <section class='hero'>
+      <div class='tag'>Autore</div>
+      <h1>Giuseppe Parini</h1>
+      <p>Snodi introduttivi e letture per avviare il percorso su Parini.</p>
+      <input id='search' class='search' placeholder='Filtra lezioni di Giuseppe Parini...'>
+    </section>
+
+    <section class='author-index card'>
+      <h2>Indice lezioni</h2>
+      <ol class='lesson-list'>
+            <li class='searchable' data-search='tu tra le veglie, e le canore scene parini-parini-pdf.html'><a class='lesson-link' href='parini-parini-pdf.html'>Tu tra le veglie, e le canore scene</a></li>
+            <li class='searchable' data-search='alla dea moda: domande guida parini-alla-dea-moda.html'><a class='lesson-link' href='parini-alla-dea-moda.html'>Alla Dea Moda: domande guida</a></li>
+      </ol>
+    </section>
+
+    <p class='foot'><a href='../../index.html'>← Torna alla homepage autori</a></p>
+  </main>
+
+  <button id='toTop' class='btn' onclick='window.scrollTo({top:0,behavior:"smooth"})'>↑</button>
+  <script src='../../assets/js/app.js'></script>
+</body>
+</html>
