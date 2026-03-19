@@ -1,14 +1,14 @@
 {
   "name": "Letteratura Italiana PWA",
   "short_name": "Letteratura",
-  "start_url": "/index.html",
+  "start_url": "/corpus-gbprof/index.html",
   "display": "standalone",
   "background_color": "#f6f2ea",
   "theme_color": "#8f3e19",
   "lang": "it",
   "icons": [
     {
-      "src": "/assets/images/icon.svg",
+      "src": "/corpus-gbprof/assets/images/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
