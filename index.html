@@ -22,64 +22,77 @@
     </div>
   </header>
 
-  <main class='wrap'>
-    <section class='hero'>
+  <main class='wrap home-cover'>
+    <section class='hero cover-hero'>
+      <p class='hero-kicker'>Archivio didattico · letteratura italiana</p>
       <h1>Corpus di Letteratura Italiana</h1>
-      <p>Seleziona un autore per accedere al suo indice didattico ordinato. Questa homepage contiene solo i collegamenti ai percorsi autore.</p>
-      <div id='resumeBox'></div>
-      <input id='search' class='search' placeholder='Cerca autore...'>
+      <p class='hero-intro'>Una copertina d’ingresso pensata per consultare in modo ordinato i percorsi dei grandi autori: materiali chiari, struttura rigorosa, identità editoriale riconoscibile.</p>
+      <div class='hero-tools'>
+        <div id='resumeBox'></div>
+        <label class='search-wrap' for='search'>
+          <span class='search-label'>Accedi rapidamente a un autore</span>
+          <input id='search' class='search' placeholder='Cerca autore...'>
+        </label>
+      </div>
     </section>
 
-    <section class='author-grid'>
-      <article class='author-card searchable' data-search='ludovico ariosto ariosto'>
-          <h2>Ludovico Ariosto</h2>
-          <p>Percorso su poetica cavalleresca, temi e personaggi dell’<em>Orlando furioso</em>.</p>
-          <a class='btn author-link' href='autori/ariosto/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='gabriele d’annunzio dannunzio'>
-          <h2>Gabriele D’Annunzio</h2>
-          <p>Dalla biografia e poetica alle opere principali, con focus su <em>Il piacere</em> e sulle <em>Laudi</em>.</p>
-          <a class='btn author-link' href='autori/dannunzio/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='ugo foscolo foscolo'>
-          <h2>Ugo Foscolo</h2>
-          <p>Quadro biografico e filosofico, poi percorso sulle opere maggiori con approfondimenti testuali.</p>
-          <a class='btn author-link' href='autori/foscolo/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='carlo goldoni goldoni'>
-          <h2>Carlo Goldoni</h2>
-          <p>Dalle coordinate biografiche alla riforma teatrale, con modulo dedicato a <em>La locandiera</em>.</p>
-          <a class='btn author-link' href='autori/goldoni/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='giacomo leopardi leopardi'>
-          <h2>Giacomo Leopardi</h2>
-          <p>Percorso su poetica, pensiero filosofico e principali testi leopardiani.</p>
-          <a class='btn author-link' href='autori/leopardi/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='alessandro manzoni manzoni'>
-          <h2>Alessandro Manzoni</h2>
-          <p>Itinerario dalla biografia alla svolta religiosa, fino al sistema della Provvidenza e a <em>I Promessi Sposi</em>.</p>
-          <a class='btn author-link' href='autori/manzoni/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='giuseppe parini parini'>
-          <h2>Giuseppe Parini</h2>
-          <p>Snodi introduttivi e letture per avviare il percorso su Parini.</p>
-          <a class='btn author-link' href='autori/parini/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='giovanni pascoli pascoli'>
-          <h2>Giovanni Pascoli</h2>
-          <p>Dalla biografia alla poetica del fanciullino, fino a stile e testi.</p>
-          <a class='btn author-link' href='autori/pascoli/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='luigi pirandello pirandello'>
-          <h2>Luigi Pirandello</h2>
-          <p>Fondamenti filosofici e poetica dell’umorismo, poi opere narrative e teatrali principali.</p>
-          <a class='btn author-link' href='autori/pirandello/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='italo svevo svevo'>
-          <h2>Italo Svevo</h2>
-          <p>Dalla biografia e poetica alla struttura della <em>Coscienza di Zeno</em>, con letture e approfondimenti.</p>
-          <a class='btn author-link' href='autori/svevo/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='torquato tasso tasso'>
-          <h2>Torquato Tasso</h2>
-          <p>Percorso tra contesto, nodi filosofici e nuclei della <em>Gerusalemme liberata</em>.</p>
-          <a class='btn author-link' href='autori/tasso/index.html'>Apri indice autore</a>
-        </article><article class='author-card searchable' data-search='giovanni verga verga'>
-          <h2>Giovanni Verga</h2>
-          <p>Passaggio dal contesto culturale alla poetica verista e alle opere.</p>
-          <a class='btn author-link' href='autori/verga/index.html'>Apri indice autore</a>
-        </article>
+    <section class='author-section' aria-labelledby='autori-title'>
+      <div class='section-head'>
+        <h2 id='autori-title'>Percorsi autore</h2>
+        <p>La homepage mostra esclusivamente i collegamenti agli autori del corpus.</p>
+      </div>
+
+      <section class='author-grid'>
+        <article class='author-card searchable' data-search='ludovico ariosto ariosto'>
+            <h2>Ludovico Ariosto</h2>
+            <p>Percorso su poetica cavalleresca, temi e personaggi dell’<em>Orlando furioso</em>.</p>
+            <a class='btn author-link' href='autori/ariosto/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='gabriele d’annunzio dannunzio'>
+            <h2>Gabriele D’Annunzio</h2>
+            <p>Dalla biografia e poetica alle opere principali, con focus su <em>Il piacere</em> e sulle <em>Laudi</em>.</p>
+            <a class='btn author-link' href='autori/dannunzio/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='ugo foscolo foscolo'>
+            <h2>Ugo Foscolo</h2>
+            <p>Quadro biografico e filosofico, poi percorso sulle opere maggiori con approfondimenti testuali.</p>
+            <a class='btn author-link' href='autori/foscolo/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='carlo goldoni goldoni'>
+            <h2>Carlo Goldoni</h2>
+            <p>Dalle coordinate biografiche alla riforma teatrale, con modulo dedicato a <em>La locandiera</em>.</p>
+            <a class='btn author-link' href='autori/goldoni/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='giacomo leopardi leopardi'>
+            <h2>Giacomo Leopardi</h2>
+            <p>Percorso su poetica, pensiero filosofico e principali testi leopardiani.</p>
+            <a class='btn author-link' href='autori/leopardi/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='alessandro manzoni manzoni'>
+            <h2>Alessandro Manzoni</h2>
+            <p>Itinerario dalla biografia alla svolta religiosa, fino al sistema della Provvidenza e a <em>I Promessi Sposi</em>.</p>
+            <a class='btn author-link' href='autori/manzoni/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='giuseppe parini parini'>
+            <h2>Giuseppe Parini</h2>
+            <p>Snodi introduttivi e letture per avviare il percorso su Parini.</p>
+            <a class='btn author-link' href='autori/parini/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='giovanni pascoli pascoli'>
+            <h2>Giovanni Pascoli</h2>
+            <p>Dalla biografia alla poetica del fanciullino, fino a stile e testi.</p>
+            <a class='btn author-link' href='autori/pascoli/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='luigi pirandello pirandello'>
+            <h2>Luigi Pirandello</h2>
+            <p>Fondamenti filosofici e poetica dell’umorismo, poi opere narrative e teatrali principali.</p>
+            <a class='btn author-link' href='autori/pirandello/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='italo svevo svevo'>
+            <h2>Italo Svevo</h2>
+            <p>Dalla biografia e poetica alla struttura della <em>Coscienza di Zeno</em>, con letture e approfondimenti.</p>
+            <a class='btn author-link' href='autori/svevo/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='torquato tasso tasso'>
+            <h2>Torquato Tasso</h2>
+            <p>Percorso tra contesto, nodi filosofici e nuclei della <em>Gerusalemme liberata</em>.</p>
+            <a class='btn author-link' href='autori/tasso/index.html'>Apri indice autore</a>
+          </article><article class='author-card searchable' data-search='giovanni verga verga'>
+            <h2>Giovanni Verga</h2>
+            <p>Passaggio dal contesto culturale alla poetica verista e alle opere.</p>
+            <a class='btn author-link' href='autori/verga/index.html'>Apri indice autore</a>
+          </article>
+      </section>
     </section>
 
     <p class='foot'>Materiali didattici originali mantenuti e riorganizzati in formato web.</p>
