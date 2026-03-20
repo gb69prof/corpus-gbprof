@@ -1,0 +1,9 @@
+AUTORE: Primo Levi
+TIPO: autore
+TITOLO: Levi-09-zona-grigia.md
+
+2.3. La "Zona Grigia": Oltre il Manicheismo
+
+Il contributo più originale e perturbante del pensiero di Levi è l'elaborazione del concetto di "zona grigia".54 Con questa metafora, egli descrive la fascia di ambiguità morale che si crea tra il campo dei padroni (i "neri") e quello dei servi (i "bianchi").47 Questa zona è popolata da figure ibride, vittime che diventano in varia misura complici e collaboratori del sistema di potere. È uno spazio che "possiede una struttura interna incredibilmente complicata, ed alberga in sé quanto basta per confondere il nostro bisogno di giudicare".47
+Levi analizza con lucidità le figure che abitano questa zona: i prigionieri privilegiati, come i Kapos, che esercitavano un potere dispotico sui loro compagni in cambio di miseri vantaggi; i funzionari del ghetto, come Chaim Rumkowski a Łódź, che collaborarono con i nazisti nella gestione della deportazione; fino al caso estremo delle Squadre Speciali (Sonderkommandos), gruppi di prigionieri ebrei costretti a lavorare nelle camere a gas e nei forni crematori, destinati a essere periodicamente eliminati per mantenere il segreto.43
+L'esistenza della zona grigia dimostra, secondo Levi, che l'oppressione non santifica le sue vittime. Al contrario, "quanto più dura è l'oppressione, tanto più diffusa è tra gli oppressi la disponibilità a collaborare con il potere".56 Questo fenomeno confuta le visioni manichee della storia e le semplificazioni della dialettica servo-padrone: l'oppresso può diventare oppressore.26 Il Lager, in questa prospettiva, non è un'anomalia assoluta, ma la manifestazione estrema di dinamiche di potere presenti in "tutte le convivenze umane".58 Per questo, Levi invita a sospendere il giudizio morale sommario e a procedere con "pietà e rigore" 13, analizzando le diverse e mai uguali gradazioni di responsabilità.

@@ -1,0 +1,8 @@
+AUTORE: Primo Levi
+TIPO: autore
+TITOLO: Levi-08-memoria.md
+
+2.2. La Memoria dell'Offesa: Uno Strumento "Meraviglioso ma Fallace"
+
+Sebbene la testimonianza sia un dovere, Levi è profondamente consapevole dei limiti dello strumento su cui essa si fonda: la memoria. Lungi dal considerarla un archivio oggettivo e immutabile, egli la descrive come uno "strumento meraviglioso ma fallace".48 I ricordi, afferma, "non sono incisi sulla pietra; non solo tendono a cancellarsi con gli anni, ma spesso si modificano, o addirittura si accrescono, incorporando lineamenti estranei".48
+Questa fallibilità assume forme diverse. I carnefici tendono a costruire una memoria di comodo, una versione edulcorata degli eventi che permette loro di autoassolversi, negando la propria responsabilità.49 Le vittime, d'altro canto, possono inconsciamente alterare i propri ricordi per un meccanismo di difesa psicologica, preferendo soffermarsi sui momenti di tregua e rimuovendo gli episodi più traumatici.50 La testimonianza, quindi, non può mai essere una fotografia fedele del passato, ma è sempre una sua interpretazione. L'atto di scrivere, per Levi, diventa una sorta di "memoria artificiale", una "protesi" 44 che fissa il ricordo ma, allo stesso tempo, crea una barriera protettiva tra il sé presente e il trauma passato. Questo approccio critico trasforma la sua opera da semplice resoconto a una complessa indagine epistemologica sulla natura della memoria traumatica e sul suo rapporto con la verità storica.

@@ -1,0 +1,9 @@
+AUTORE: Primo Levi
+TIPO: autore
+TITOLO: Levi-04-resistenza.md
+
+1.3. La Scelta Partigiana: Un'Esperienza Breve e Tragica
+
+Con la caduta del fascismo e l'occupazione tedesca del centro-nord Italia dopo l'8 settembre 1943, la situazione precipitò. Levi si unì a un gruppo partigiano affiliato a Giustizia e Libertà, operante in Valle d'Aosta.10 La sua esperienza nella Resistenza fu, per sua stessa ammissione, breve e dilettantesca. Il gruppo era composto da giovani inesperti e male equipaggiati, animati più da un "moderato e astratto senso di ribellione" che da una vera preparazione militare.9
+Il 13 dicembre 1943, la milizia fascista arrestò Levi e i suoi compagni.9 Messo alle strette, e temendo di essere fucilato come partigiano, Levi confessò la propria identità ebraica, ritenendola, in quel momento, il male minore.9 Questa scelta, dettata dalla confusione e dalla scarsa percezione del pericolo che correvano gli ebrei, si rivelerà fatale. Inoltre, questa breve parentesi partigiana fu segnata da un evento traumatico che Levi avrebbe rivelato solo decenni dopo ne
+Il sistema periodico: la fucilazione di due giovani compagni, appena diciottenni, giudicati inaffidabili e pericolosi dalla sua stessa banda. Questo "segreto brutto" 19, un atto di giustizia sommaria dettato dalla necessità e dalla paura, pesò sulla sua coscienza per tutta la vita.18 L'episodio dimostra come la riflessione di Levi sulla complessità morale e sulla difficoltà del giudicare non nasca unicamente dall'esperienza del Lager, ma abbia radici in eventi precedenti che già lo avevano posto di fronte all'ambiguità delle scelte umane in situazioni estreme.
