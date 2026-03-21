@@ -1,0 +1,7 @@
+AUTORE: Cesare Pavese
+TIPO: pensiero
+
+Il ritorno alle origini (Langhe, infanzia, “paese”) non vale come consolazione. È un movimento conoscitivo: tornare significa verificare che l’identità non coincide con il luogo, perché il luogo è cambiato e perché la memoria stessa non restituisce un passato disponibile. In questa prospettiva il paesaggio diventa figura morale: non sfondo, ma dispositivo simbolico che incorpora desiderio, violenza, colpa, perdita. [36]
+Qui si colloca anche la frattura città/campagna. In Pavese la campagna non è idillio “naturalistico”: è un mondo duro, talvolta crudele, dove emergono pulsioni primarie; la città non è progresso liberatorio: spesso è luogo di alienazione, controllo, sconfitta privata. L’opposizione non è sociologica in senso piatto; serve a costruire l’impossibilità di una sintesi pacificata tra appartenenza e modernità. [37]
+
+Nell’ultimo romanzo, questa immagine del mondo assume una forma radicale: la ricerca di senso (salvezza, compimento) appare come “spettro dell’assoluto” che incombe ma non si realizza; la certezza che resta è la mortalità, e il caos non è fase transitoria ma forma della vita moderna. Questa è una linea critica specifica (non l’unica possibile) e va presentata come interpretazione, utile però per leggere la tonalità etica del testo senza trasformarla in metafisica astratta. [38]
