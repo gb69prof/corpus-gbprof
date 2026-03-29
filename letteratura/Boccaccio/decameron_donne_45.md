@@ -1,0 +1,7 @@
+TITOLO: Decameron - Donne 45
+TIPO: analisi
+SEZIONE: Decameron
+PAROLE_CHIAVE: donne, Boccaccio, Decameron
+
+Va però sottolineato che le novelle non giustificano l’inganno in assoluto: è un riso amaro quello che accompagna questi tradimenti seriali, perché dipingono un quadro di istituzione matrimoniale in crisi, fatta spesso di convenienze più che di amore. Boccaccio da un lato solletica il lettore con situazioni piccanti, dall’altro lascia intravedere una critica sociale: se le donne tradiscono così spesso, è perché i mariti o sono vecchi e inadeguati (Bartolomea docet) o le costringono in gabbie oppressive. La loro astuzia diventa l’arma per riequilibrare un rapporto squilibrato. Inoltre, queste storie fungono da monito per gli uomini: chi è troppo geloso o tonto rischia di essere beffato. In definitiva, la “moglie infedele” del Decameron è un archetipo trattato in modo caricaturale ma non del tutto privo di empatia: rappresenta la donna che si riappropria del proprio piacere usando l’ingegno, e allo stesso tempo incarna l’eterna battaglia dei sessi, dove Boccaccio concede spesso vittoria alle donne come tributo alla loro furbizia naturale. È interessante notare come questa tipologia capovolga completamente l’immagine della donna angelicata e fedele per definizione: qui l’angelo del focolare mette le corna al marito e l’aureola cede il posto a un diabolico estro creativo. Una provocazione divertita, con cui Boccaccio arricchisce il suo affresco dell’universo femminile di tinte impreviste e assai terrene.
+La Donna Virtuosa e Fedele
