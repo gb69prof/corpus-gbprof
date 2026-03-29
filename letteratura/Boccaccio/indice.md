@@ -1,0 +1,27 @@
+# indice
+
+- boccaccio-profilo-generale.md — Boccaccio / Profilo generale
+- decameron-titolo-e-sottotitolo.md — Il Decamerone / Titolo e sottotitolo
+- decameron-unita-e-cornice.md — Il Decamerone / Unità dell’opera e cornice
+- decameron-prima-giornata.md — Il Decamerone / Prima giornata
+- decameron-seconda-giornata.md — Il Decamerone / Seconda giornata
+- decameron-terza-giornata.md — Il Decamerone / Terza giornata
+- decameron-quarta-giornata.md — Il Decamerone / Quarta giornata
+- decameron-quinta-giornata.md — Il Decamerone / Quinta giornata
+- decameron-sesta-giornata.md — Il Decamerone / Sesta giornata
+- decameron-settima-giornata.md — Il Decamerone / Settima giornata
+- decameron-ottava-giornata.md — Il Decamerone / Ottava giornata
+- decameron-nona-giornata.md — Il Decamerone / Nona giornata
+- decameron-decima-giornata.md — Il Decamerone / Decima giornata
+- decameron-liberta-narrativa.md — Il Decamerone / Libertà narrativa
+- decameron-varieta-delle-fonti.md — Il Decamerone / Varietà delle fonti
+- decameron-mondo-del-boccaccio.md — Il Decamerone / Il mondo del Boccaccio
+- decameron-realismo.md — Il Decamerone / Il realismo
+- federigo-degli-alberighi-incpit.md — Federigo degli Alberighi / Incipit
+- federigo-degli-alberighi-federigo-personaggio.md — Federigo degli Alberighi / Il personaggio di Federigo
+- federigo-degli-alberighi-giovanna-personaggio.md — Federigo degli Alberighi / Il personaggio di Giovanna
+- federigo-degli-alberighi-amore.md — Federigo degli Alberighi / L’amore
+- federigo-degli-alberighi-fortuna.md — Federigo degli Alberighi / La fortuna
+- federigo-degli-alberighi-tempo.md — Federigo degli Alberighi / Il tempo
+- federigo-degli-alberighi-spazio.md — Federigo degli Alberighi / Lo spazio
+- federigo-degli-alberighi-figure-retoriche.md — Federigo degli Alberighi / Figure retoriche
